@@ -3597,7 +3597,7 @@
       (reference "D12") (unit 1) (value "PTVS58VS1UR,115") (footprint "antmicro-footprints:D_SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005fea17d8/4d2b5819-d7e8-4a70-8527-29f9c1c897ab"
-      (reference "D13") (unit 1) (value "LED_G_0603_LTST-C190GKT") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
+      (reference "D13") (unit 1) (value "LED_G") (footprint "antmicro-footprints:LED_0603_1608Metric_G")
     )
     (path "/00000000-0000-0000-0000-00005fea1b94/1ec603ba-8d36-4736-89e2-57f93a884544"
       (reference "D14") (unit 1) (value "SP3011-06UTG") (footprint "antmicro-footprints:USON-14_3.5x1.35_P0.5mm")
