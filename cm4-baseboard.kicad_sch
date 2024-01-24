@@ -98,13 +98,13 @@
     )
   )
 
+  (bus_alias "DSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
+  (bus_alias "UART" (members "TX" "RX"))
   (bus_alias "USB" (members "RX_P" "RX_N" "TX_P" "TX_N" "D_P" "D_N"))
+  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N"))
+  (bus_alias "PCIe" (members "TX0_P" "TX0_N" "RX0_P" "RX0_N" "CLK_P" "CLK_N" "TX1_N" "TX2_N" "TX3_N" "TX1_P" "TX2_P" "TX3_P" "RX1_N" "RX2_N" "RX3_N" "RX1_P" "RX2_P" "RX3_P" "~{RST}" "~{CLK_REQ}"))
   (bus_alias "I_{2}C" (members "SCL" "SDA"))
   (bus_alias "CSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
-  (bus_alias "NVMe" (members "TX0_P" "TX0_N" "RX0_P" "RX0_N" "CLK_P" "CLK_N" "TX1_N" "TX2_N" "TX3_N" "TX1_P" "TX2_P" "TX3_P" "RX1_N" "RX2_N" "RX3_N" "RX1_P" "RX2_P" "RX3_P" "~{RST}" "~{CLK_REQ}"))
-  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "DSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
   (bus_alias "SDIO" (members "D0" "D1" "D2" "D3" "CMD" "CLK" "CD"))
   (bus_alias "Ethernet" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "LED_ACT" "LED_LINK"))
   (junction (at 166.37 264.16) (diameter 0) (color 0 0 0 0)
@@ -2598,7 +2598,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 45ff8e5a-b9f0-4cc7-943a-092358c7e8ca)
     )
-    (pin "NVMe{NVMe}" bidirectional (at 243.84 120.65 0)
+    (pin "NVMe{PCIe}" bidirectional (at 243.84 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 857404dd-6479-4edb-b9ae-25e6eb7e0a7c)
     )
@@ -2694,7 +2694,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 196d03c2-047d-46de-a688-98334e1d2c4e)
     )
-
     (pin "NVMe_EN" input (at 154.94 85.09 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid fd3b7035-ad69-493a-8ee2-ed7c9c3cb043)
@@ -2727,7 +2726,7 @@
     (property "Sheet file" "nvme-micro-sd.kicad_sch" (id 1) (at 276.86 112.3446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "NVMe{NVMe}" bidirectional (at 276.86 93.98 180)
+    (pin "NVMe{PCIe}" bidirectional (at 276.86 93.98 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 9a031c4c-6824-41dd-849b-623c39f04d63)
     )
@@ -3370,6 +3369,9 @@
     (path "/00000000-0000-0000-0000-00005fea17e9/eb77c947-dac0-4aca-9a2d-a02492ce442d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005fea1b94/f1001aad-8cd7-4e0a-bbab-ed1980b0dd29"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005fea1b94/f4ce2705-9ab4-4e1a-98c2-271275337917"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -3495,24 +3497,6 @@
     )
     (path "/00000000-0000-0000-0000-00005fea1b94/00000000-0000-0000-0000-00005ff8c53e"
       (reference "C48") (unit 1) (value "C_1u_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fea1b94/00000000-0000-0000-0000-00005ffa31af"
-      (reference "C49") (unit 1) (value "C_100n_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fea1b94/00000000-0000-0000-0000-00005ff80661"
-      (reference "C50") (unit 1) (value "C_100n_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fea1b94/00000000-0000-0000-0000-00005ff8c54b"
-      (reference "C51") (unit 1) (value "C_100n_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fea1b94/00000000-0000-0000-0000-00005ffa31bc"
-      (reference "C52") (unit 1) (value "C_1n_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fea1b94/00000000-0000-0000-0000-00005ff829cf"
-      (reference "C53") (unit 1) (value "C_1n_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005fea1b94/00000000-0000-0000-0000-00005ff8c558"
-      (reference "C54") (unit 1) (value "C_1n_0603") (footprint "antmicro-footprints:C_0603_1608Metric")
     )
     (path "/49e0afda-d892-4d16-b8c1-dc5863c48dfa/682cadd9-bbdc-4cac-adbc-c48513cfc838"
       (reference "C55") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:C_0402_1005Metric")

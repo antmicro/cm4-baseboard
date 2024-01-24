@@ -6059,7 +6059,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 92f4e484-5aea-4f86-8253-342e92050e91)
   )
-  (hierarchical_label "NVMe{NVMe}" (shape bidirectional) (at 201.93 69.85 180)
+  (hierarchical_label "NVMe{PCIe}" (shape bidirectional) (at 201.93 69.85 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b7265f80-5a28-4864-a994-0c51daf761ab)
   )
