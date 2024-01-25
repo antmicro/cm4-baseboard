@@ -609,11 +609,15 @@
     ],
     [
       "7832ee62-288d-4a3e-80f4-f13d1b9ce12b",
-      "DSI&LVDS"
+      "DSI -> LVDS converter"
     ],
     [
       "6e132e8a-be93-4f6c-b030-15293fb6e15c",
       "Debug"
+    ],
+    [
+      "5d61928f-81f0-4a4c-b452-b4734d3ec233",
+      "LVDS display"
     ]
   ],
   "text_variables": {}
