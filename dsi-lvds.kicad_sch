@@ -1441,8 +1441,6 @@
     )
   )
 
-  (bus_alias "LVDS" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
-  (bus_alias "DSI_LVDS" (members "SCL" "SDA" "EN" "IRQ"))
   (junction (at 201.93 78.74) (diameter 0) (color 0 0 0 0)
     (uuid 0ce7c224-5ee9-497c-bcbe-b494ed13ac0e)
   )
