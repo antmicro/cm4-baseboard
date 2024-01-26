@@ -6100,7 +6100,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1ce32816-bd37-4573-84a0-4ee58f1adebf)
   )
-  (hierarchical_label "DSI{slash}LVDS{DSI_LVDS}" (shape bidirectional) (at 38.1 92.71 180)
+  (hierarchical_label "DisplayCtrl{DisplayCtrl}" (shape bidirectional) (at 38.1 92.71 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2377846a-1de0-4b93-9490-c345add63905)
   )
