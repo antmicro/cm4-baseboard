@@ -6084,6 +6084,10 @@
     )
   )
 
+  (hierarchical_label "CamCtrl{CamCtrl}" (shape output) (at 58.42 167.64 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 05000140-09f4-4b41-916d-0cb28f1beaf6)
+  )
   (hierarchical_label "I_{2}C_CSI1{I_{2}C}" (shape bidirectional) (at 104.14 176.53 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 09f09190-18f3-461e-8fc0-a62f65271af8)
