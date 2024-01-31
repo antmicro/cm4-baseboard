@@ -5651,7 +5651,7 @@
     (uuid ae7c5e7a-5342-402f-b42e-58268e16e17d)
   )
 
-  (symbol (lib_name "C_47u_16V_1206_1") (lib_id "antmicroCapacitorsmisc:C_47u_16V_1206") (at 355.6 193.04 90) (unit 1)
+  (symbol (lib_id "antmicroCapacitorsmisc:C_47u_16V_1206") (at 355.6 193.04 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 000c6dbc-3e1d-4e68-9d1b-c0cb0fee14b1)
     (property "Reference" "C40" (id 0) (at 357.505 191.77 90)

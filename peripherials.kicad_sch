@@ -6300,7 +6300,7 @@
     (pin "1" (uuid 50ecccce-f8c5-4b00-a043-b218ba7e20c9))
   )
 
-  (symbol (lib_name "+3V3_1") (lib_id "antmicropower:+3V3") (at 41.91 177.8 0) (unit 1)
+  (symbol (lib_id "antmicropower:+3V3") (at 41.91 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 134e2312-0a76-4263-85e2-a482d6b7fd84)
     (property "Reference" "#PWR?" (id 0) (at 57.15 177.8 0)

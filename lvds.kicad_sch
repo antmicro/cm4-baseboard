@@ -8845,7 +8845,7 @@
     (pin "2" (uuid 10fd6b9b-f8c3-45a6-9e6e-b59ea6abc446))
   )
 
-  (symbol (lib_name "C_22u_25V_0805_1") (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 173.99 196.85 270) (unit 1)
+  (symbol (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 173.99 196.85 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 257eb24e-a684-4d63-8a65-0f0a78448243)
     (property "Reference" "C?" (id 0) (at 171.45 196.8562 90)
@@ -8881,8 +8881,6 @@
     (property "Dielectric" "X5R" (id 10) (at 143.51 217.17 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid e9ac69af-3ed9-4027-be6c-b6331643133d))
-    (pin "2" (uuid b4daf987-f106-43b5-9a15-e7904d6d1f5e))
   )
 
   (symbol (lib_id "antmicroCapacitors0402:C_10u_0402") (at 60.96 46.99 90) (unit 1)
@@ -10002,7 +10000,7 @@
     (pin "2" (uuid f31c9d93-557d-4bcb-a98e-ee71e0f18596))
   )
 
-  (symbol (lib_name "C_22u_25V_0805_1") (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 175.26 50.8 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 175.26 50.8 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7b087682-4398-4ae5-9794-83c9bb11e283)
     (property "Reference" "C?" (id 0) (at 177.8 50.8062 90)
@@ -10038,8 +10036,6 @@
     (property "Dielectric" "X5R" (id 10) (at 205.74 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid c8cd2e4a-0e87-4bde-9ef1-42b8725b5139))
-    (pin "2" (uuid a47b889a-57b3-4425-b9cd-f792e857e23d))
   )
 
   (symbol (lib_id "antmicropower:GND") (at 335.28 240.03 0) (unit 1)
@@ -10208,7 +10204,7 @@
     (pin "3" (uuid 6daf234a-e789-4eab-ac96-a4c6c14a3aa6))
   )
 
-  (symbol (lib_name "C_22u_25V_0805_1") (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 119.38 50.8 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 119.38 50.8 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 87418403-96e0-4834-9247-2518b8abc38b)
     (property "Reference" "C?" (id 0) (at 121.92 50.8062 90)
@@ -10244,8 +10240,6 @@
     (property "Dielectric" "X5R" (id 10) (at 149.86 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid f80c2024-12f8-4e9b-81ce-0d9eddf1b994))
-    (pin "2" (uuid 2dcd427a-8acc-4cee-b1d0-ef5f6a99aec7))
   )
 
   (symbol (lib_id "antmicropower:GND") (at 317.5 45.72 0) (unit 1)
@@ -12241,7 +12235,7 @@
     (pin "2" (uuid c11150f1-c807-4da7-8166-f5dc1734f463))
   )
 
-  (symbol (lib_name "C_22u_25V_0805_1") (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 228.6 214.63 90) (mirror x) (unit 1)
+  (symbol (lib_id "antmicroCapacitorsmisc:C_22u_25V_0805") (at 228.6 214.63 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e050934f-2e7f-4d1d-a6b0-f09cd3270d46)
     (property "Reference" "C?" (id 0) (at 231.14 214.6362 90)
@@ -12277,8 +12271,6 @@
     (property "Dielectric" "X5R" (id 10) (at 259.08 234.95 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 0ee00118-0c2e-4b1e-addc-eeb540ca9e0b))
-    (pin "2" (uuid 8cee36e2-3a76-4bce-b7dc-5d07e8caf408))
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 382.27 210.82 180) (unit 1)
