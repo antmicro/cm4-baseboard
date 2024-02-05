@@ -4701,7 +4701,7 @@
       (reference "Q?") (unit 1) (value "SQS401EN-T1_BE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
     )
     (path "/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233/22384f1e-f81e-4937-a2d4-799c3f26c443"
-      (reference "Q?") (unit 1) (value "BSS138-7-F") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-00005fea17c4/2269c73f-2d2f-4381-917a-f5c0280fc8c9"
       (reference "Q?") (unit 1) (value "SSM3J332R") (footprint "antmicro-footprints:SOT-23-3")
@@ -4731,22 +4731,22 @@
       (reference "Q?") (unit 1) (value "SSM3J332R") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233/7efa90b5-8f69-48ec-b7d6-84a529c247e0"
-      (reference "Q?") (unit 1) (value "BSS138-7-F") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/b148dc70-7270-4ae3-80a1-580624d4cd31/5d61928f-81f0-4a4c-b452-b4734d3ec233/84d4e85e-db0a-469a-84f7-cfe0f38cef6b"
-      (reference "Q?") (unit 1) (value "BSS138-7-F") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-00005fea17c4/99da4cb8-32a0-43e6-be63-0d7b9f9a8878"
-      (reference "Q?") (unit 1) (value "BSS138-7-F") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-00005fea17e9/9ac20e23-782a-41e0-b723-b1a2290be259"
       (reference "Q?") (unit 1) (value "SQS401EN-T1_BE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
     )
     (path "/00000000-0000-0000-0000-00005fea17c4/a3b3b85f-790e-45cf-8032-dbde76b6b239"
-      (reference "Q?") (unit 1) (value "BSS138-7-F") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-00005fea17c4/b25338eb-3061-4958-a330-462aed32d2ac"
-      (reference "Q?") (unit 1) (value "BSS138-7-F") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/6e132e8a-be93-4f6c-b030-15293fb6e15c/bb94e079-de1c-42b6-8077-349fdb1ebac5"
       (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
@@ -4767,7 +4767,7 @@
       (reference "Q?") (unit 1) (value "SSM3J332R") (footprint "antmicro-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-00005fea17c4/ea2d4280-09ee-4c69-a24b-628ae3ad607d"
-      (reference "Q?") (unit 1) (value "BSS138-7-F") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
     )
     (path "/6e132e8a-be93-4f6c-b030-15293fb6e15c/f4f09ca2-c560-49f1-908d-adc5ec7b8dcb"
       (reference "Q?") (unit 1) (value "PJE138K") (footprint "antmicro-footprints:SOT-523")
