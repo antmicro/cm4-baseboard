@@ -1259,9 +1259,9 @@
     )
   )
 
-  (bus_alias "LVDS" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
-  (bus_alias "DisplayCtrl" (members "SCL" "SDA" "EN" "IRQ" "DIM"))
   (bus_alias "Touchscreen" (members "SCL" "SDA" "~{RST}" "~{IRQ}" "GPIO_PWR"))
+  (bus_alias "DisplayCtrl" (members "SCL" "SDA" "EN" "IRQ" "DIM"))
+  (bus_alias "LVDS" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
   (junction (at 185.42 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 3c81034e-4484-46fa-8db6-df3ed978f5a0)
   )
