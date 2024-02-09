@@ -22,7 +22,7 @@
       (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 20.32 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 20.32 -15.24 0)
+      (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 20.32 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "GRM155R61H104KE14D" (at 20.32 -17.78 0)
@@ -46,7 +46,10 @@
       (property "Dielectric" "X5R" (at 20.32 -30.48 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" " " (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "C_100n_0402_0_1"
@@ -88,13 +91,13 @@
       (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 20.32 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" " " (at 20.32 -15.24 0)
+      (property "Datasheet" "https://product.samsungsem.com/mlcc/CL05C180JB51PN.do" (at 20.32 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "MPN" "MC0402N180J500CT" (at 20.32 -17.78 0)
+      (property "MPN" "CL05C180JB51PNC" (at 20.32 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Manufacturer" "Multicomp" (at 20.32 -20.32 0)
+      (property "Manufacturer" "Samsung Electro-Mechanics" (at 20.32 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "License" "Apache-2.0" (at 20.32 -22.86 0)
@@ -112,7 +115,10 @@
       (property "Dielectric" "" (at 20.32 -30.48 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" " " (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Multilayer Ceramic Capacitor, 18 pF, 50 V, 0402 [1005 Metric], ± 5%, C0G / NP0, MC" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "C_18p_0402_0_1"
@@ -154,7 +160,7 @@
       (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 20.32 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" " " (at 20.32 -15.24 0)
+      (property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC" (at 20.32 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "C1005X6S1A105K050BC" (at 20.32 -17.78 0)
@@ -178,7 +184,10 @@
       (property "Dielectric" "" (at 20.32 -30.48 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" " " (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "C_1u_0402_0_1"
@@ -289,7 +298,7 @@
       (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 20.32 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" " " (at 20.32 -15.24 0)
+      (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" (at 20.32 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "GRM155R61A475MEAAD" (at 20.32 -17.78 0)
@@ -313,7 +322,10 @@
       (property "Dielectric" "" (at 20.32 -30.48 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" " " (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 10 V, 0402 [1005 Metric], ± 20%, X5R, GRM Series" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "C_4u7_0402_0_1"
@@ -576,7 +588,7 @@
       (property "Footprint" "antmicro-footprints:SOD-523" (at 22.86 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://www.mouser.pl/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 22.86 -12.7 0)
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 22.86 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "RB521S30T1G" (at 22.86 -15.24 0)
@@ -591,10 +603,10 @@
       (property "License" "Apache-2.0" (at 22.86 -22.86 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_keywords" "Schottky Barrier Diode, 30 V SOD-523" (at 0 0 0)
+      (property "ki_keywords" "SMT, RECTIFIER, SEMICONDUCTOR, DIODE, SCHOTTKY" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Schottky Barrier Diode, 30 V" (at 0 0 0)
+      (property "ki_description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "RB521S30T1G_1_1"
@@ -1258,13 +1270,13 @@
       (property "Footprint" "antmicro-footprints:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" (at 35.56 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://www.mouser.pl/datasheet/2/268/21795C-64371.pdf" (at 35.56 -10.16 0)
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/268/21795C-64371.pdf" (at 35.56 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "93LC66BT-I/MC" (at 35.56 -19.05 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
-      (property "Manufacturer" "Microchip" (at 35.56 -16.51 0)
+      (property "Manufacturer" "Microchip Technology" (at 35.56 -16.51 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "Author" "Antmicro" (at 35.56 -12.7 0)
@@ -1273,10 +1285,10 @@
       (property "License" "Apache-2.0" (at 35.56 -15.24 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_keywords" " EEPROM 4K 256X16 SER EE IND " (at 0 0 0)
+      (property "ki_keywords" "SMT, MEMORY, IC, EEPROM" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" " EEPROM 4K 256X16 SER EE IND " (at 0 0 0)
+      (property "ki_description" "EEPROM, 4 Kbit, 256 x 16bit, Serial Microwire, 2 MHz, DFN-EP-8" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm*" (at 0 0 0)
@@ -1335,10 +1347,10 @@
       (property "Footprint" "antmicro-footprints:TSOT23-6" (at 30.48 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://www.mouser.pl/datasheet/2/115/DIOD_S_A0008958405_1-2543193.pdf" (at 30.48 -10.16 0)
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0008958405_1-2543193.pdf" (at 30.48 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "MPN" "AP22615AWU-7 " (at 30.48 -12.7 0)
+      (property "MPN" "AP22615AWU-7" (at 30.48 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Manufacturer" "Diodes Incorporated" (at 30.48 -15.24 0)
@@ -1350,10 +1362,10 @@
       (property "License" "Apache-2.0" (at 30.48 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_keywords" "single channel power distribution switch output ovp" (at 0 0 0)
+      (property "ki_keywords" "SMT, PMIC, IC, VOLTAGE" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "SINGLE CHANNEL POWER DISTRIBUTION SWITCH WITH OUTPUT OVERVOLTAGE, OVERCURRENT, SHORT-CIRCUIT AND OVERTEMPERATURE PROTECTION, Supports USB PD 3.0 FAST ROLE-SWAP" (at 0 0 0)
+      (property "ki_description" "Power Load Distribution Switch, High Side, Active High, 1 Output, 5.5 V, 3.6 A, 0.04 ohm, TSOT-26-6" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "AP22615A_TSOT26_1_1"
@@ -1412,10 +1424,10 @@
       (property "License" "Apache-2.0" (at 30.48 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_keywords" "3v3 LDO wson6 wdfn6" (at 0 0 0)
+      (property "ki_keywords" "SMT, PMIC, IC, LDO, VOLTAGE, REGULATOR" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Linear Voltage Regulator IC Positive Fixed 3.3V 1 Output 150mA 6-WDFN (2x2mm)" (at 0 0 0)
+      (property "ki_description" "Linear Voltage Regulator IC Positive Fixed 1 Output 150mA 6-WDFN (2x2)" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "NCP730BMT330_WSON_1_1"
@@ -1538,7 +1550,10 @@
       (property "Tolerance" "1%" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" "100k resistor in 0402 package with 1% tolerance" (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_100k_0402_0_1"
@@ -1589,7 +1604,10 @@
       (property "Tolerance" "1%" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" "10k resistor in 0402 package with 1% tolerance" (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_10k_0402_0_1"
@@ -1640,7 +1658,10 @@
       (property "Tolerance" "1%" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" "12k resistor in 0402 package with 1% tolerance" (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Chip Resistor, 12 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_12k_0402_0_1"
@@ -1691,7 +1712,10 @@
       (property "Tolerance" "1%" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" "15k resistor in 0402 package with 1% tolerance" (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Chip Resistor, 15 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_15k_0402_0_1"
@@ -1796,7 +1820,10 @@
       (property "Tolerance" "1%" (at 20.32 -10.16 0)
         (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "ki_description" "2k2 resistor in 0402 package with 1% tolerance" (at 0 0 0)
+      (property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMD Chip Resistor, 2.2 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "R_2k2_0402_0_1"
@@ -1901,7 +1928,7 @@
       (property "ki_keywords" "SMT, CERAMIC, OSCILLATOR" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Crystal, 24 MHz, SMT, 3.2mm x 2.5mm, 30 ppm, 18 pF, 20 ppm, ABM8G" (at 0 0 0)
+      (property "ki_description" "Crystal, 12 MHz, SMT, 3.2mm x 2.5mm, 30 ppm, 18 pF, 20 ppm, ABM8G" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Resonator_12MHz_ABM8G_1_1"
@@ -2059,7 +2086,7 @@
       (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 25.4 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 25.4 -12.7 0)
+      (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 25.4 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Manufacturer" "Nexperia" (at 25.4 -15.24 0)
@@ -2073,6 +2100,12 @@
       )
       (property "License" "Apache-2.0" (at 25.4 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "TVS diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PUSB3F96X_PASS_1_1"
         (polyline
@@ -2148,32 +2181,35 @@
         )
       )
     )
-    (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 17.78 -5.08 0)
+    (symbol "antmicroTestPoints:TP_0.75mm_SMD" (pin_names hide) (in_bom no) (on_board yes)
+      (property "Reference" "TP" (at 10.795 -1.27 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
-      (property "Value" "TP_0.75mm_SMD" (at 17.78 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      (property "Value" "TP_0.75mm_SMD" (at 10.795 -3.81 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:TP_SMD_0.75mm" (at 17.78 -10.16 0)
+      (property "Footprint" "antmicro-footprints:TP_SMD_0.75mm" (at 10.795 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "" (at 17.78 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "MPN" "" (at 17.78 -15.24 0)
+      (property "MPN" "" (at 10.795 -11.43 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Manufacturer" "" (at 17.78 -17.78 0)
+      (property "Manufacturer" "" (at 10.795 -6.35 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Author" "Antmicro" (at 17.78 -20.32 0)
+      (property "Author" "Antmicro" (at 10.795 -8.89 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "License" "Apache-2.0" (at 17.78 -22.86 0)
+      (property "License" "Apache-2.0" (at 10.795 -11.43 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" "Test Point 0.75mm" (at 0 0 0)
+      (property "ki_keywords" "TESTPOINT" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "SMT test point" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TP_0.75mm_SMD_1_1"
@@ -2197,13 +2233,13 @@
       (property "Footprint" "antmicro-footprints:SOT-523" (at 22.86 -11.43 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://www.mouser.pl/datasheet/2/1057/PJE138K-1876698.pdf" (at 22.86 -13.97 0)
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf" (at 22.86 -13.97 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "PJE138K_R1_00001" (at 22.86 -16.51 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Manufacturer" "Panjit" (at 22.86 -19.05 0)
+      (property "Manufacturer" "PANJIT" (at 22.86 -19.05 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Author" "Antmicro" (at 22.86 -21.59 0)
@@ -2212,10 +2248,10 @@
       (property "License" "Apache-2.0" (at 22.86 -24.13 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_keywords" "n-channel enhancement mosfet sot-523" (at 0 0 0)
+      (property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, MOSFET, NMOS" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "MOSFET 50V N-Channel Enhancement Mode MOSFET ESD Protected" (at 0 0 0)
+      (property "ki_description" "FET/MOSFET transistor" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PJE138K_0_1"
@@ -2351,15 +2387,15 @@
           (stroke (width 0) (type default))
           (fill (type outline))
         )
-        (pin bidirectional line (at 0 0 0) (length 2.54)
+        (pin passive line (at 0 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 7.62 -2.54 90) (length 2.54)
+        (pin passive line (at 7.62 -2.54 90) (length 2.54)
           (name "S" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin bidirectional line (at 7.62 7.62 270) (length 2.54)
+        (pin passive line (at 7.62 7.62 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -2802,10 +2838,10 @@
     )
     (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Value" "GND" (at 8.89 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Footprint" "" (at 8.89 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -2829,7 +2865,7 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0.254) (type default))
+          (stroke (width 0) (type default))
           (fill (type none))
         )
         (pin power_in line (at 0 0 270) (length 0)
@@ -7206,7 +7242,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 279.4 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 274.32 113.03 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 274.32 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 284.48 118.11 0)
@@ -7244,7 +7280,7 @@
   (symbol (lib_id "antmicropower:GND") (at 130.81 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04aba1e4-ce72-4f97-83e6-f8ec79c6b1e0)
-    (property "Reference" "#PWR?" (at 130.81 229.87 0)
+    (property "Reference" "#PWR0291" (at 130.81 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 228.6 0)
@@ -7266,7 +7302,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0291") (unit 1)
         )
       )
     )
@@ -7275,7 +7311,7 @@
   (symbol (lib_id "antmicropower:GND") (at 330.2 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07a47d27-41bd-4f1c-a2df-ce782840d665)
-    (property "Reference" "#PWR?" (at 339.09 245.11 0)
+    (property "Reference" "#PWR0261" (at 339.09 245.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 330.2 247.65 0)
@@ -7297,7 +7333,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0261") (unit 1)
         )
       )
     )
@@ -7306,7 +7342,7 @@
   (symbol (lib_id "antmicropower:GND") (at 328.93 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0963b044-5dfc-426c-a1ee-963db8430abe)
-    (property "Reference" "#PWR?" (at 328.93 231.14 0)
+    (property "Reference" "#PWR0275" (at 328.93 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 328.93 229.235 0)
@@ -7328,7 +7364,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0275") (unit 1)
         )
       )
     )
@@ -7363,6 +7399,9 @@
     )
     (property "Val" "120Z/1.3A" (at 271.7419 102.87 0)
       (effects (font (size 1.27 1.27)))
+    )
+    (property "Current" "" (at 289.56 119.38 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (pin "1" (uuid 7a657576-5dac-4aaf-8ca2-41733d911939))
     (pin "2" (uuid 5b7990f7-1495-4e33-9a1f-4dbe24a95990))
@@ -7431,13 +7470,13 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 321.31 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" " " (at 316.23 219.71 0)
+    (property "Datasheet" "https://product.samsungsem.com/mlcc/CL05C180JB51PN.do" (at 316.23 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Multicomp" (at 326.39 224.79 0)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 326.39 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "MC0402N180J500CT" (at 323.85 224.79 0)
+    (property "MPN" "CL05C180JB51PNC" (at 323.85 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Val" "18p" (at 313.055 224.1612 90)
@@ -7469,7 +7508,7 @@
   (symbol (lib_id "antmicropower:GND") (at 289.56 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15fdfc6f-08e5-4fd9-b11c-3b2bf710de2c)
-    (property "Reference" "#PWR?" (at 289.56 125.73 0)
+    (property "Reference" "#PWR0289" (at 289.56 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 289.56 123.19 0)
@@ -7491,7 +7530,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0289") (unit 1)
         )
       )
     )
@@ -7500,7 +7539,7 @@
   (symbol (lib_id "antmicropower:GND") (at 99.06 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 168db46e-3cbd-44e0-a61d-5d786cd40c4f)
-    (property "Reference" "#PWR?" (at 90.17 88.9 0)
+    (property "Reference" "#PWR0302" (at 90.17 88.9 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 101.0702 91.44 0)
@@ -7522,7 +7561,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0302") (unit 1)
         )
       )
     )
@@ -7540,13 +7579,13 @@
     (property "Footprint" "antmicro-footprints:SOT-523" (at 193.04 123.19 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/1057/PJE138K-1876698.pdf" (at 193.04 120.65 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf" (at 193.04 120.65 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "MPN" "PJE138K_R1_00001" (at 204.47 118.11 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Panjit" (at 193.04 118.11 0)
+    (property "Manufacturer" "PANJIT" (at 193.04 118.11 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "Author" "Antmicro" (at 210.82 149.86 0)
@@ -7570,7 +7609,7 @@
   (symbol (lib_id "antmicropower:GND") (at 139.7 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17dbafd6-d2fe-4c2c-9a27-135b44a8c198)
-    (property "Reference" "#PWR?" (at 139.7 35.56 0)
+    (property "Reference" "#PWR0303" (at 139.7 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 139.7 33.02 0)
@@ -7592,7 +7631,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0303") (unit 1)
         )
       )
     )
@@ -7601,7 +7640,7 @@
   (symbol (lib_id "antmicropower:GND") (at 322.58 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 185c8551-5dbd-4e70-bbd4-1fa3d289372a)
-    (property "Reference" "#PWR?" (at 322.58 231.14 0)
+    (property "Reference" "#PWR0274" (at 322.58 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 322.58 229.235 0)
@@ -7623,7 +7662,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0274") (unit 1)
         )
       )
     )
@@ -7641,7 +7680,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 232.41 274.32 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 227.33 269.24 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 227.33 269.24 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 237.49 274.32 0)
@@ -7688,7 +7727,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 287.02 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 281.94 113.03 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 281.94 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 292.1 118.11 0)
@@ -7770,7 +7809,7 @@
   (symbol (lib_id "antmicropower:GND") (at 287.02 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20ba8d0c-8f96-4495-b690-2cc18a13ddb1)
-    (property "Reference" "#PWR?" (at 287.02 248.92 0)
+    (property "Reference" "#PWR0267" (at 287.02 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 287.02 247.65 0)
@@ -7792,7 +7831,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0267") (unit 1)
         )
       )
     )
@@ -7921,7 +7960,7 @@
   (symbol (lib_id "antmicropower:GND") (at 279.4 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24e2992c-ef3e-4be4-9dea-449bf44ecdd4)
-    (property "Reference" "#PWR?" (at 279.4 248.92 0)
+    (property "Reference" "#PWR0266" (at 279.4 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 279.4 247.65 0)
@@ -7943,7 +7982,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0266") (unit 1)
         )
       )
     )
@@ -7952,7 +7991,7 @@
   (symbol (lib_id "antmicropower:GND") (at 229.87 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24f6e67f-0826-4c1f-906a-09ddebd6c006)
-    (property "Reference" "#PWR?" (at 229.87 157.48 0)
+    (property "Reference" "#PWR0272" (at 229.87 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 155.575 0)
@@ -7974,7 +8013,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0272") (unit 1)
         )
       )
     )
@@ -7992,13 +8031,13 @@
     (property "Footprint" "antmicro-footprints:SOT-523" (at 123.19 78.74 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/1057/PJE138K-1876698.pdf" (at 123.19 76.2 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf" (at 123.19 76.2 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "MPN" "PJE138K_R1_00001" (at 111.76 73.66 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Panjit" (at 123.19 73.66 0)
+    (property "Manufacturer" "PANJIT" (at 123.19 73.66 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "Author" "Antmicro" (at 105.41 105.41 0)
@@ -8022,7 +8061,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 172.72 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2685ea1b-bb54-4898-a30c-90761be5d427)
-    (property "Reference" "#PWR?" (at 187.96 133.35 0)
+    (property "Reference" "#PWR0294" (at 187.96 133.35 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 172.72 125.73 0)
@@ -8044,7 +8083,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0294") (unit 1)
         )
       )
     )
@@ -8053,7 +8092,7 @@
   (symbol (lib_id "antmicropower:GND") (at 113.03 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2aee8543-6be9-4f6e-a56f-2526b612e285)
-    (property "Reference" "#PWR?" (at 113.03 50.8 0)
+    (property "Reference" "#PWR0304" (at 113.03 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 113.03 48.26 0)
@@ -8075,7 +8114,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0304") (unit 1)
         )
       )
     )
@@ -8137,7 +8176,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 292.1 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" " " (at 297.18 118.11 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" (at 297.18 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 287.02 113.03 0)
@@ -8175,7 +8214,7 @@
   (symbol (lib_id "antmicropower:GND") (at 195.58 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3132fc20-a4b1-410c-b42f-b322819f5ebe)
-    (property "Reference" "#PWR?" (at 204.47 134.62 0)
+    (property "Reference" "#PWR0296" (at 204.47 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 193.5698 137.16 0)
@@ -8197,7 +8236,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0296") (unit 1)
         )
       )
     )
@@ -8250,7 +8289,7 @@
   (symbol (lib_id "antmicropower:GND") (at 39.37 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 378e25a8-5794-40a2-90d3-972d52416b3c)
-    (property "Reference" "#PWR?" (at 48.26 175.26 0)
+    (property "Reference" "#PWR0308" (at 48.26 175.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 37.3598 177.8 0)
@@ -8272,7 +8311,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0308") (unit 1)
         )
       )
     )
@@ -8325,7 +8364,7 @@
   (symbol (lib_id "antmicropower:GND") (at 227.33 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38f3e7f6-060e-4b09-8b5d-0ee4b44bcec1)
-    (property "Reference" "#PWR?" (at 227.33 280.67 0)
+    (property "Reference" "#PWR0279" (at 227.33 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.33 279.4 0)
@@ -8347,7 +8386,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0279") (unit 1)
         )
       )
     )
@@ -8488,7 +8527,7 @@
   (symbol (lib_id "antmicropower:GND") (at 120.65 153.67 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f05f92e-8390-49f1-ac45-a74e2bbc0863)
-    (property "Reference" "#PWR?" (at 111.76 156.21 0)
+    (property "Reference" "#PWR0293" (at 111.76 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 122.6602 158.75 0)
@@ -8510,7 +8549,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0293") (unit 1)
         )
       )
     )
@@ -8519,7 +8558,7 @@
   (symbol (lib_id "antmicropower:GND") (at 281.94 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40446366-5904-452e-885c-a47bc9fab532)
-    (property "Reference" "#PWR?" (at 281.94 110.49 0)
+    (property "Reference" "#PWR0286" (at 281.94 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 107.95 0)
@@ -8541,7 +8580,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0286") (unit 1)
         )
       )
     )
@@ -8594,7 +8633,7 @@
   (symbol (lib_id "antmicropower:GND") (at 228.6 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 417ea42a-d2dd-4e9d-ad49-f0c812c9be52)
-    (property "Reference" "#PWR?" (at 228.6 214.63 0)
+    (property "Reference" "#PWR0277" (at 228.6 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 213.36 0)
@@ -8616,7 +8655,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0277") (unit 1)
         )
       )
     )
@@ -8634,7 +8673,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 287.02 102.87 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 281.94 97.79 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 281.94 97.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 292.1 102.87 0)
@@ -8719,7 +8758,7 @@
   (symbol (lib_id "antmicropower:GND") (at 281.94 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47afe873-9f7a-4eef-afd6-6d1fdb8d6ae7)
-    (property "Reference" "#PWR?" (at 281.94 142.24 0)
+    (property "Reference" "#PWR0269" (at 281.94 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 139.7 0)
@@ -8741,7 +8780,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0269") (unit 1)
         )
       )
     )
@@ -8840,7 +8879,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 269.24 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 264.16 236.22 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 264.16 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 274.32 241.3 0)
@@ -8887,7 +8926,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 127 41.91 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 124.46 41.91 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 124.46 41.91 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 119.38 41.91 0)
@@ -8968,7 +9007,7 @@
   (symbol (lib_id "antmicropower:GND") (at 334.01 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ec2a33b-36d3-4f5b-8a21-6871425869c9)
-    (property "Reference" "#PWR?" (at 342.9 245.11 0)
+    (property "Reference" "#PWR0260" (at 342.9 245.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 334.01 247.65 0)
@@ -8990,7 +9029,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0260") (unit 1)
         )
       )
     )
@@ -8999,7 +9038,7 @@
   (symbol (lib_id "antmicropower:GND") (at 294.64 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fefc71b-8f7d-4aef-85f3-3360a0601ce9)
-    (property "Reference" "#PWR?" (at 294.64 248.92 0)
+    (property "Reference" "#PWR0264" (at 294.64 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 294.64 247.65 0)
@@ -9021,7 +9060,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0264") (unit 1)
         )
       )
     )
@@ -9039,7 +9078,7 @@
     (property "Footprint" "antmicro-footprints:SOD-523" (at 311.15 153.67 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 311.15 156.21 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 311.15 156.21 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "RB521S30T1G" (at 292.354 139.7 0)
@@ -9068,7 +9107,7 @@
   (symbol (lib_id "antmicropower:GND") (at 99.06 152.4 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50ad66ea-aa7a-4e5e-8b33-39372796f0af)
-    (property "Reference" "#PWR?" (at 90.17 154.94 0)
+    (property "Reference" "#PWR0310" (at 90.17 154.94 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 101.0702 157.48 0)
@@ -9090,7 +9129,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0310") (unit 1)
         )
       )
     )
@@ -9152,7 +9191,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 125.73 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 120.65 214.63 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 120.65 214.63 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 130.81 219.71 0)
@@ -9228,7 +9267,7 @@
   (symbol (lib_id "antmicropower:GND") (at 281.94 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64c09aba-29e7-4ea1-bae8-06117a60e01a)
-    (property "Reference" "#PWR?" (at 281.94 125.73 0)
+    (property "Reference" "#PWR0282" (at 281.94 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 123.19 0)
@@ -9250,7 +9289,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0282") (unit 1)
         )
       )
     )
@@ -9590,7 +9629,7 @@
   (symbol (lib_id "antmicropower:GND") (at 274.32 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6facad4b-04fe-49a1-922e-c662c6defa0c)
-    (property "Reference" "#PWR?" (at 274.32 125.73 0)
+    (property "Reference" "#PWR0287" (at 274.32 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 123.19 0)
@@ -9612,7 +9651,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0287") (unit 1)
         )
       )
     )
@@ -9630,7 +9669,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 276.86 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 271.78 236.22 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 271.78 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 281.94 241.3 0)
@@ -9668,7 +9707,7 @@
   (symbol (lib_id "antmicropower:GND") (at 184.15 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 712bc75a-b97f-424e-883d-54dd1ff4186e)
-    (property "Reference" "#PWR?" (at 193.04 144.78 0)
+    (property "Reference" "#PWR0297" (at 193.04 144.78 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 182.1398 147.32 0)
@@ -9690,7 +9729,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0297") (unit 1)
         )
       )
     )
@@ -9699,7 +9738,7 @@
   (symbol (lib_id "antmicropower:GND") (at 120.65 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71301853-160d-4e6b-b3aa-55a61c31eac3)
-    (property "Reference" "#PWR?" (at 120.65 226.06 0)
+    (property "Reference" "#PWR0292" (at 120.65 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 224.79 0)
@@ -9721,7 +9760,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0292") (unit 1)
         )
       )
     )
@@ -9774,7 +9813,7 @@
   (symbol (lib_id "antmicropower:GND") (at 224.79 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77f9f167-d451-4690-a3a8-26176c22dafe)
-    (property "Reference" "#PWR?" (at 224.79 123.19 0)
+    (property "Reference" "#PWR0285" (at 224.79 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 121.285 0)
@@ -9796,7 +9835,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0285") (unit 1)
         )
       )
     )
@@ -9805,7 +9844,7 @@
   (symbol (lib_id "antmicropower:GND") (at 63.5 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7801f80a-0b0e-4318-bd1b-4e3af331a52c)
-    (property "Reference" "#PWR?" (at 72.39 118.11 0)
+    (property "Reference" "#PWR0298" (at 72.39 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 61.4898 120.65 0)
@@ -9827,7 +9866,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0298") (unit 1)
         )
       )
     )
@@ -9879,7 +9918,7 @@
   (symbol (lib_id "antmicropower:GND") (at 250.19 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b5a867e-7c45-49e7-8357-0c25f311be92)
-    (property "Reference" "#PWR?" (at 250.19 157.48 0)
+    (property "Reference" "#PWR0271" (at 250.19 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 156.21 0)
@@ -9901,7 +9940,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0271") (unit 1)
         )
       )
     )
@@ -9919,10 +9958,10 @@
     (property "Footprint" "antmicro-footprints:TSOT23-6" (at 101.6 40.64 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/115/DIOD_S_A0008958405_1-2543193.pdf" (at 101.6 43.18 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0008958405_1-2543193.pdf" (at 101.6 43.18 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "AP22615AWU-7 " (at 101.6 45.72 0)
+    (property "MPN" "AP22615AWU-7" (at 101.6 45.72 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Diodes Incorporated" (at 101.6 48.26 0)
@@ -9952,7 +9991,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 139.7 19.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 802493d4-4031-4a50-808e-f409a5fdf842)
-    (property "Reference" "#PWR?" (at 139.7 22.86 0)
+    (property "Reference" "#PWR0305" (at 139.7 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 139.7 15.494 0)
@@ -9964,11 +10003,17 @@
     (property "Datasheet" "" (at 139.7 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Author" "Antmicro" (at 124.46 26.67 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 124.46 29.21 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
     (pin "1" (uuid cf22d2a8-f449-4efc-a86a-615424219c03))
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0305") (unit 1)
         )
       )
     )
@@ -9977,7 +10022,7 @@
   (symbol (lib_id "antmicropower:GND") (at 172.72 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81dcb718-9120-46d3-b9c0-17349d6e026f)
-    (property "Reference" "#PWR?" (at 181.61 148.59 0)
+    (property "Reference" "#PWR0295" (at 181.61 148.59 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 170.7098 151.13 0)
@@ -9999,7 +10044,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0295") (unit 1)
         )
       )
     )
@@ -10017,7 +10062,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 255.27 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" " " (at 250.19 111.76 0)
+    (property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC" (at 250.19 111.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "TDK" (at 260.35 116.84 0)
@@ -10055,7 +10100,7 @@
   (symbol (lib_id "antmicropower:GND") (at 87.63 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84af92e3-0449-4897-ad13-2aaffcb5f558)
-    (property "Reference" "#PWR?" (at 96.52 77.47 0)
+    (property "Reference" "#PWR0301" (at 96.52 77.47 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 85.6198 80.01 0)
@@ -10077,7 +10122,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0301") (unit 1)
         )
       )
     )
@@ -10095,7 +10140,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 271.78 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 266.7 113.03 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 266.7 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 276.86 118.11 0)
@@ -10198,7 +10243,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 287.02 149.86 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 281.94 144.78 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 281.94 144.78 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 292.1 149.86 0)
@@ -10236,7 +10281,7 @@
   (symbol (lib_id "antmicropower:GND") (at 250.19 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8611f8f6-8d32-44b6-a5f8-6beb2e058395)
-    (property "Reference" "#PWR?" (at 250.19 123.19 0)
+    (property "Reference" "#PWR0283" (at 250.19 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 121.92 0)
@@ -10258,7 +10303,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0283") (unit 1)
         )
       )
     )
@@ -10267,7 +10312,7 @@
   (symbol (lib_id "antmicropower:GND") (at 39.37 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8659720b-d8f6-4eb7-8e7e-609d9008a6ae)
-    (property "Reference" "#PWR?" (at 48.26 109.22 0)
+    (property "Reference" "#PWR0299" (at 48.26 109.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 37.3598 111.76 0)
@@ -10289,7 +10334,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0299") (unit 1)
         )
       )
     )
@@ -10362,6 +10407,9 @@
     (property "Val" "120Z/1.3A" (at 271.78 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
+    (property "Current" "" (at 289.56 151.13 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
     (pin "1" (uuid d11901c0-cbd1-4bd2-a780-6fa14f49a0fb))
     (pin "2" (uuid 63a74136-da18-451b-970d-8f6c957de3fb))
     (instances
@@ -10385,7 +10433,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 299.72 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 294.64 236.22 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 294.64 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 304.8 241.3 0)
@@ -10450,6 +10498,9 @@
     (property "Val" "120Z/1.3A" (at 271.78 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
+    (property "Current" "" (at 289.56 166.37 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
     (pin "1" (uuid 4471ed47-102a-4d30-b69c-e6cb732458f8))
     (pin "2" (uuid e33f5e11-e5fd-4037-bae6-bb576a726f9f))
     (instances
@@ -10464,7 +10515,7 @@
   (symbol (lib_id "antmicropower:GND") (at 82.55 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9159cb95-920d-490a-b3d7-763866c51059)
-    (property "Reference" "#PWR?" (at 91.44 77.47 0)
+    (property "Reference" "#PWR0300" (at 91.44 77.47 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 80.5398 80.01 0)
@@ -10486,7 +10537,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0300") (unit 1)
         )
       )
     )
@@ -10495,7 +10546,7 @@
   (symbol (lib_id "antmicropower:GND") (at 281.94 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 924fc5da-1503-48de-9d38-7f8646ce146d)
-    (property "Reference" "#PWR?" (at 281.94 157.48 0)
+    (property "Reference" "#PWR0268" (at 281.94 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 154.94 0)
@@ -10517,7 +10568,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0268") (unit 1)
         )
       )
     )
@@ -10526,7 +10577,7 @@
   (symbol (lib_id "antmicropower:GND") (at 266.7 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92763257-8ed4-4d39-aa5c-8e16af5787dd)
-    (property "Reference" "#PWR?" (at 266.7 125.73 0)
+    (property "Reference" "#PWR0288" (at 266.7 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 123.19 0)
@@ -10548,7 +10599,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0288") (unit 1)
         )
       )
     )
@@ -10566,7 +10617,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 307.34 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" " " (at 302.26 236.22 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23" (at 302.26 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 312.42 241.3 0)
@@ -10642,7 +10693,7 @@
   (symbol (lib_id "antmicropower:GND") (at 222.25 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c1e5084-779e-4dea-8e8c-71e75a3e54ac)
-    (property "Reference" "#PWR?" (at 222.25 214.63 0)
+    (property "Reference" "#PWR0276" (at 222.25 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 213.36 0)
@@ -10664,7 +10715,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0276") (unit 1)
         )
       )
     )
@@ -10673,7 +10724,7 @@
   (symbol (lib_id "antmicropower:GND") (at 229.87 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0085bf8-f65c-4c68-a630-b32a9fe72ccf)
-    (property "Reference" "#PWR?" (at 229.87 123.19 0)
+    (property "Reference" "#PWR0284" (at 229.87 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 121.285 0)
@@ -10695,7 +10746,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0284") (unit 1)
         )
       )
     )
@@ -10704,7 +10755,7 @@
   (symbol (lib_id "antmicropower:GND") (at 120.65 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0fb12c6-b397-40e6-aa97-c88ea88844ac)
-    (property "Reference" "#PWR?" (at 111.76 90.17 0)
+    (property "Reference" "#PWR0306" (at 111.76 90.17 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 122.6602 92.71 0)
@@ -10726,7 +10777,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0306") (unit 1)
         )
       )
     )
@@ -10735,7 +10786,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 153.67 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a110231b-e1d5-4854-8283-d88f36bc7e29)
-    (property "Reference" "#PWR?" (at 168.91 95.25 0)
+    (property "Reference" "#PWR0307" (at 168.91 95.25 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 153.67 87.63 0)
@@ -10757,7 +10808,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0307") (unit 1)
         )
       )
     )
@@ -10775,7 +10826,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 284.48 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 279.4 236.22 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 279.4 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 289.56 241.3 0)
@@ -10822,7 +10873,7 @@
     (property "Footprint" "antmicro-footprints:SOD-523" (at 182.88 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 182.88 118.11 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 182.88 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "RB521S30T1G" (at 164.084 101.6 0)
@@ -10951,7 +11002,7 @@
     (property "Footprint" "antmicro-footprints:SOD-523" (at 182.88 106.68 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 182.88 109.22 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 182.88 109.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "RB521S30T1G" (at 164.084 92.71 0)
@@ -10989,7 +11040,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 294.64 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 289.56 113.03 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 289.56 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 299.72 118.11 0)
@@ -11123,7 +11174,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 287.02 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 281.94 129.54 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 281.94 129.54 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 292.1 134.62 0)
@@ -11161,7 +11212,7 @@
   (symbol (lib_id "antmicropower:GND") (at 297.18 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b57c2ff8-658e-4ba3-8d37-48558c5b6597)
-    (property "Reference" "#PWR?" (at 297.18 125.73 0)
+    (property "Reference" "#PWR0290" (at 297.18 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 297.18 123.19 0)
@@ -11183,7 +11234,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0290") (unit 1)
         )
       )
     )
@@ -11201,7 +11252,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 292.1 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 287.02 236.22 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 287.02 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 297.18 241.3 0)
@@ -11291,13 +11342,13 @@
     (property "Footprint" "antmicro-footprints:SOT-523" (at 123.19 144.78 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/1057/PJE138K-1876698.pdf" (at 123.19 142.24 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf" (at 123.19 142.24 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "MPN" "PJE138K_R1_00001" (at 111.76 139.7 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Panjit" (at 123.19 139.7 0)
+    (property "Manufacturer" "PANJIT" (at 123.19 139.7 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "Author" "Antmicro" (at 105.41 171.45 0)
@@ -11321,7 +11372,7 @@
   (symbol (lib_id "antmicropower:GND") (at 316.23 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc50ed75-82ff-4fcd-8be5-7eb19d8d6e14)
-    (property "Reference" "#PWR?" (at 316.23 231.14 0)
+    (property "Reference" "#PWR0273" (at 316.23 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.23 229.235 0)
@@ -11343,7 +11394,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0273") (unit 1)
         )
       )
     )
@@ -11408,13 +11459,13 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 334.01 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" " " (at 328.93 219.71 0)
+    (property "Datasheet" "https://product.samsungsem.com/mlcc/CL05C180JB51PN.do" (at 328.93 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Multicomp" (at 339.09 224.79 0)
+    (property "Manufacturer" "Samsung Electro-Mechanics" (at 339.09 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "MC0402N180J500CT" (at 336.55 224.79 0)
+    (property "MPN" "CL05C180JB51PNC" (at 336.55 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Val" "18p" (at 331.47 224.1612 90)
@@ -11455,13 +11506,13 @@
     (property "Footprint" "antmicro-footprints:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" (at 168.91 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/268/21795C-64371.pdf" (at 168.91 220.98 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/268/21795C-64371.pdf" (at 168.91 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "93LC66BT-I/MC" (at 143.51 205.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Manufacturer" "Microchip" (at 168.91 227.33 0)
+    (property "Manufacturer" "Microchip Technology" (at 168.91 227.33 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Author" "Antmicro" (at 168.91 223.52 0)
@@ -11500,7 +11551,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 255.27 151.13 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" " " (at 250.19 146.05 0)
+    (property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC" (at 250.19 146.05 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "TDK" (at 260.35 151.13 0)
@@ -11538,7 +11589,7 @@
   (symbol (lib_id "antmicropower:GND") (at 264.16 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca789f2c-5f6c-4e9c-b5b0-443cc5dbc5bf)
-    (property "Reference" "#PWR?" (at 264.16 248.92 0)
+    (property "Reference" "#PWR0263" (at 264.16 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.16 247.65 0)
@@ -11560,7 +11611,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0263") (unit 1)
         )
       )
     )
@@ -11659,7 +11710,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 233.68 208.28 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 228.6 203.2 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 228.6 203.2 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 238.76 208.28 0)
@@ -11697,7 +11748,7 @@
   (symbol (lib_id "antmicropower:GND") (at 222.25 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4acb197-6b9c-4e46-bf54-4a86f1e67f5c)
-    (property "Reference" "#PWR?" (at 222.25 280.67 0)
+    (property "Reference" "#PWR0278" (at 222.25 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 279.4 0)
@@ -11719,7 +11770,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0278") (unit 1)
         )
       )
     )
@@ -11728,7 +11779,7 @@
   (symbol (lib_id "antmicropower:GND") (at 224.79 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6016c1e-65bf-481e-b07e-016c7fcf299e)
-    (property "Reference" "#PWR?" (at 224.79 157.48 0)
+    (property "Reference" "#PWR0270" (at 224.79 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 155.575 0)
@@ -11750,7 +11801,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0270") (unit 1)
         )
       )
     )
@@ -11797,7 +11848,7 @@
   (symbol (lib_id "antmicropower:GND") (at 222.25 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc278ef0-7d6c-45a6-940d-cedb49909a65)
-    (property "Reference" "#PWR?" (at 222.25 248.92 0)
+    (property "Reference" "#PWR0280" (at 222.25 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 247.65 0)
@@ -11819,7 +11870,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0280") (unit 1)
         )
       )
     )
@@ -11872,7 +11923,7 @@
   (symbol (lib_id "antmicropower:GND") (at 302.26 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1893de5-12a5-4f97-8148-5fe4e559f3fd)
-    (property "Reference" "#PWR?" (at 302.26 248.92 0)
+    (property "Reference" "#PWR0265" (at 302.26 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 247.65 0)
@@ -11894,7 +11945,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0265") (unit 1)
         )
       )
     )
@@ -11912,7 +11963,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 90.17 113.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 90.17 115.57 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 90.17 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 90.17 118.11 0)
@@ -11949,7 +12000,7 @@
   (symbol (lib_id "antmicropower:GND") (at 82.55 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efe095dc-dc8d-42e7-af3e-f53a3d88f461)
-    (property "Reference" "#PWR?" (at 91.44 143.51 0)
+    (property "Reference" "#PWR0311" (at 91.44 143.51 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 80.5398 146.05 0)
@@ -11971,7 +12022,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0311") (unit 1)
         )
       )
     )
@@ -11980,7 +12031,7 @@
   (symbol (lib_id "antmicropower:GND") (at 228.6 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid effcb247-9e0f-4d05-85eb-86b259c4f780)
-    (property "Reference" "#PWR?" (at 228.6 248.92 0)
+    (property "Reference" "#PWR0281" (at 228.6 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 247.65 0)
@@ -12002,7 +12053,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0281") (unit 1)
         )
       )
     )
@@ -12020,7 +12071,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 90.17 182.88 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 90.17 185.42 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 90.17 185.42 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 90.17 187.96 0)
@@ -12272,7 +12323,7 @@
     (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 233.68 242.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" (at 228.6 237.49 0)
+    (property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23" (at 228.6 237.49 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Murata" (at 238.76 242.57 0)
@@ -12319,13 +12370,13 @@
     (property "Footprint" "antmicro-footprints:SOT-523" (at 181.61 133.35 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/1057/PJE138K-1876698.pdf" (at 181.61 130.81 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf" (at 181.61 130.81 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "MPN" "PJE138K_R1_00001" (at 193.04 128.27 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
-    (property "Manufacturer" "Panjit" (at 181.61 128.27 0)
+    (property "Manufacturer" "PANJIT" (at 181.61 128.27 0)
       (effects (font (size 1.524 1.524)) (justify left bottom) hide)
     )
     (property "Author" "Antmicro" (at 199.39 160.02 0)
@@ -12393,7 +12444,7 @@
   (symbol (lib_id "antmicropower:GND") (at 63.5 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6435465-54af-4923-8ca9-79e970d635f7)
-    (property "Reference" "#PWR?" (at 72.39 187.96 0)
+    (property "Reference" "#PWR0309" (at 72.39 187.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 61.4898 190.5 0)
@@ -12415,7 +12466,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0309") (unit 1)
         )
       )
     )
@@ -12424,7 +12475,7 @@
   (symbol (lib_id "antmicropower:GND") (at 271.78 242.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9003a25-0755-4ade-9169-795e24e942f5)
-    (property "Reference" "#PWR?" (at 271.78 248.92 0)
+    (property "Reference" "#PWR0262" (at 271.78 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 271.78 247.65 0)
@@ -12446,7 +12497,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0262") (unit 1)
         )
       )
     )
@@ -12464,7 +12515,7 @@
     (property "Footprint" "antmicro-footprints:SOD-523" (at 182.88 124.46 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://www.mouser.pl/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 182.88 127 0)
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/308/RB521S30T1_D-1522497.pdf" (at 182.88 127 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "MPN" "RB521S30T1G" (at 164.084 110.49 0)
@@ -12493,7 +12544,7 @@
   (symbol (lib_id "antmicropower:GND") (at 87.63 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa069a23-1e7e-44ca-bb24-6bc8c0dad312)
-    (property "Reference" "#PWR?" (at 96.52 143.51 0)
+    (property "Reference" "#PWR0312" (at 96.52 143.51 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 85.6198 146.05 0)
@@ -12515,7 +12566,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/6e132e8a-be93-4f6c-b030-15293fb6e15c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0312") (unit 1)
         )
       )
     )

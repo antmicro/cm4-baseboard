@@ -12,58 +12,6 @@
   )
 
   (lib_symbols
-    (symbol "+3V3_1" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 15.24 0 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Value" "+3V3_1" (at -3.175 2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
-      )
-      (property "Footprint" "" (at 15.24 -7.62 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Datasheet" "" (at 15.24 -10.16 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Author" "Antmicro" (at 15.24 -2.54 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 15.24 -5.08 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (symbol "+3V3_1_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy -0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3_1_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "antmicroB2BConnectors:Socket_Samtec_ERF5_2x20_ERF5-020-05.0-L-DV-K-TR" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 26.67 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -1117,7 +1065,7 @@
       )
     )
     (symbol "antmicroResonators:Resonator_27.12MHz_XRCGB" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Y" (at 22.86 -5.08 0)
+      (property "Reference" "Y" (at 22.86 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "Resonator_27.12MHz_XRCGB" (at 22.86 -7.62 0)
@@ -1129,23 +1077,23 @@
       (property "Datasheet" "https://www.murata.com/products/productdata/8801078247454/SPEC-XRCGB27M120F3M13R0.pdf?1541043011000" (at 22.86 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "MPN" "XRCGB27M120F3M13R0" (at 22.86 -15.24 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      (property "Manufacturer" "Murata" (at 22.86 -25.4 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "Manufacturer" "Murata" (at 22.86 -17.78 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      (property "MPN" "XRCGB27M120F3M13R0" (at 22.86 -22.86 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
-      (property "Author" "Antmicro" (at 22.86 -20.32 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "License" "Apache-2.0" (at 22.86 -22.86 0)
-        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Val" "27.12MHz" (at 22.86 -25.4 0)
+      (property "Val" "27.12MHz" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "CLoad" "10pF" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
+      (property "CLoad" "10pF" (at 22.86 -20.32 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (at 22.86 -15.24 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (at 22.86 -17.78 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
       (property "ki_keywords" "OSCILLATOR" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1222,7 +1170,7 @@
       (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 25.4 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 25.4 -12.7 0)
+      (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 25.4 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Manufacturer" "Nexperia" (at 25.4 -15.24 0)
@@ -1236,6 +1184,12 @@
       )
       (property "License" "Apache-2.0" (at 25.4 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, TVS, ESD" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "TVS diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PUSB3F96X_PASS_1_1"
         (polyline
@@ -1311,7 +1265,7 @@
         )
       )
     )
-    (symbol "antmicroTestPoints:TP_1mm_SMD" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "antmicroTestPoints:TP_1mm_SMD" (pin_names hide) (in_bom no) (on_board yes)
       (property "Reference" "TP" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
@@ -1321,7 +1275,7 @@
       (property "Footprint" "antmicro-footprints:TP_SMD_1mm" (at 15.24 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Datasheet" "" (at 15.24 -12.7 0)
+      (property "Datasheet" "" (at 17.78 -12.7 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "MPN" "" (at 0 0 0)
@@ -1336,7 +1290,10 @@
       (property "License" "Apache-2.0" (at 15.24 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "ki_description" "Test Point 1mm" (at 0 0 0)
+      (property "ki_keywords" "TESTPOINT" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Test point 1mm SMD" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "TP_1mm_SMD_1_1"
@@ -1507,10 +1464,10 @@
       )
     )
     (symbol "antmicropower:+3V3" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 15.24 -2.54 0)
+      (property "Reference" "#PWR" (at 15.24 0 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Value" "+3V3" (at 15.24 -5.08 0)
+      (property "Value" "+3V3" (at -3.175 2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Footprint" "" (at 15.24 -7.62 0)
@@ -1519,38 +1476,40 @@
       (property "Datasheet" "" (at 15.24 -10.16 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Author" "Antmicro" (at 15.24 -7.62 0)
+      (property "Author" "Antmicro" (at 15.24 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "License" "Apache-2.0" (at 15.24 -10.16 0)
+      (property "License" "Apache-2.0" (at 15.24 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (symbol "+3V3_1_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
+      (symbol "+3V3_0_1"
         (polyline
           (pts
             (xy 0 0)
             (xy 0 2.54)
           )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy -0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 2.54)
             (xy 0.762 1.27)
           )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
+          (stroke (width 0) (type default))
+          (fill (type none))
         )
-        (pin power_in line (at 0 0 90) (length 0)
+      )
+      (symbol "+3V3_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
           (name "+3V3" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -6272,7 +6231,7 @@
   (symbol (lib_id "antmicropower:GND") (at 43.18 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f3fa2cd-e311-4e33-9a41-43d32933c30e)
-    (property "Reference" "#PWR?" (at 52.07 231.14 0)
+    (property "Reference" "#PWR0254" (at 52.07 231.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 43.18 233.68 0)
@@ -6294,7 +6253,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0254") (unit 1)
         )
       )
     )
@@ -6303,7 +6262,7 @@
   (symbol (lib_id "antmicropower:GND") (at 130.81 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 112ad230-5577-497a-81a8-30134602195a)
-    (property "Reference" "#PWR?" (at 139.7 238.76 0)
+    (property "Reference" "#PWR0250" (at 139.7 238.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 130.81 241.3 0)
@@ -6325,7 +6284,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0250") (unit 1)
         )
       )
     )
@@ -6334,7 +6293,7 @@
   (symbol (lib_id "antmicropower:GND") (at 257.81 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11a0f864-2eb5-4a6d-900e-996b7ab3b3da)
-    (property "Reference" "#PWR?" (at 266.7 66.04 0)
+    (property "Reference" "#PWR0232" (at 266.7 66.04 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 257.81 67.31 0)
@@ -6356,7 +6315,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0232") (unit 1)
         )
       )
     )
@@ -6365,7 +6324,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 41.91 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 134e2312-0a76-4263-85e2-a482d6b7fd84)
-    (property "Reference" "#PWR?" (at 57.15 177.8 0)
+    (property "Reference" "#PWR0240" (at 57.15 177.8 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 41.91 172.72 0)
@@ -6387,7 +6346,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0240") (unit 1)
         )
       )
     )
@@ -6396,7 +6355,7 @@
   (symbol (lib_id "antmicropower:GND") (at 130.81 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c0f9567-290c-488d-9cb4-07aeca14dd51)
-    (property "Reference" "#PWR?" (at 139.7 199.39 0)
+    (property "Reference" "#PWR0249" (at 139.7 199.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 130.81 201.93 0)
@@ -6418,7 +6377,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0249") (unit 1)
         )
       )
     )
@@ -6551,7 +6510,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 96.52 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 242dcca7-ea43-49c8-ba9b-f0c2ee63a3ae)
-    (property "Reference" "#PWR?" (at 111.76 92.71 0)
+    (property "Reference" "#PWR0256" (at 111.76 92.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 96.52 85.09 0)
@@ -6573,7 +6532,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0256") (unit 1)
         )
       )
     )
@@ -6629,7 +6588,7 @@
   (symbol (lib_id "antmicropower:GND") (at 236.22 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24537c9f-9b09-49fa-be4e-314f77a00c3c)
-    (property "Reference" "#PWR?" (at 245.11 135.89 0)
+    (property "Reference" "#PWR0237" (at 245.11 135.89 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 236.22 137.16 0)
@@ -6651,7 +6610,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0237") (unit 1)
         )
       )
     )
@@ -6854,7 +6813,7 @@
   (symbol (lib_id "antmicropower:GND") (at 130.81 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33f16a2c-194f-4fca-9ed4-3a7e184b2b5a)
-    (property "Reference" "#PWR?" (at 139.7 180.34 0)
+    (property "Reference" "#PWR0253" (at 139.7 180.34 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 130.81 182.88 0)
@@ -6876,7 +6835,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0253") (unit 1)
         )
       )
     )
@@ -6981,7 +6940,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 157.48 215.9 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 218.44 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 218.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 157.48 220.98 0)
@@ -7018,7 +6977,7 @@
   (symbol (lib_id "antmicropower:GND") (at 265.43 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3813b611-ae52-4008-8362-850e3aa20b82)
-    (property "Reference" "#PWR?" (at 274.32 160.02 0)
+    (property "Reference" "#PWR0234" (at 274.32 160.02 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 265.43 161.29 0)
@@ -7040,7 +6999,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0234") (unit 1)
         )
       )
     )
@@ -7049,7 +7008,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 91.44 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3948c817-fa3f-4bd5-ba5c-665201638d76)
-    (property "Reference" "#PWR?" (at 76.2 92.71 0)
+    (property "Reference" "#PWR0257" (at 76.2 92.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 91.44 85.09 0)
@@ -7071,7 +7030,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0257") (unit 1)
         )
       )
     )
@@ -7080,7 +7039,7 @@
   (symbol (lib_id "antmicropower:GND") (at 151.13 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39f99ff7-13e1-4a78-89b5-eda9ec8a8149)
-    (property "Reference" "#PWR?" (at 160.02 54.61 0)
+    (property "Reference" "#PWR0239" (at 160.02 54.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 151.13 57.15 0)
@@ -7102,7 +7061,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0239") (unit 1)
         )
       )
     )
@@ -7111,7 +7070,7 @@
   (symbol (lib_id "antmicropower:GND") (at 317.5 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b539b5f-e52d-4ff5-b663-a1d032a1b2d1)
-    (property "Reference" "#PWR?" (at 326.39 119.38 0)
+    (property "Reference" "#PWR0225" (at 326.39 119.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 317.5 120.65 0)
@@ -7133,7 +7092,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -7323,7 +7282,7 @@
   (symbol (lib_id "antmicropower:GND") (at 243.84 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a5c678d-4325-4b6c-8fad-a9df2079b900)
-    (property "Reference" "#PWR?" (at 252.73 135.89 0)
+    (property "Reference" "#PWR0236" (at 252.73 135.89 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 243.84 137.16 0)
@@ -7345,7 +7304,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0236") (unit 1)
         )
       )
     )
@@ -7363,7 +7322,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 208.28 196.85 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 199.39 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 199.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 208.28 201.93 0)
@@ -7447,7 +7406,7 @@
   (symbol (lib_id "antmicropower:GND") (at 152.4 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a7fa6db-8297-4a72-80a4-2d2ab0d7f859)
-    (property "Reference" "#PWR?" (at 161.29 116.84 0)
+    (property "Reference" "#PWR0247" (at 161.29 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 152.4 119.38 0)
@@ -7469,7 +7428,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0247") (unit 1)
         )
       )
     )
@@ -7574,7 +7533,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 243.84 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f02844d-2b73-445f-86e0-7add12601a75)
-    (property "Reference" "#PWR?" (at 259.08 116.84 0)
+    (property "Reference" "#PWR0227" (at 259.08 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 243.84 109.22 0)
@@ -7596,7 +7555,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0227") (unit 1)
         )
       )
     )
@@ -7605,7 +7564,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 236.22 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66a3f32c-2bd4-448b-b650-349453d7682a)
-    (property "Reference" "#PWR?" (at 251.46 116.84 0)
+    (property "Reference" "#PWR0228" (at 251.46 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 236.22 109.22 0)
@@ -7627,7 +7586,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0228") (unit 1)
         )
       )
     )
@@ -7636,7 +7595,7 @@
   (symbol (lib_id "antmicropower:GND") (at 257.81 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6846b726-7979-4847-bd67-2164ff8e22b2)
-    (property "Reference" "#PWR?" (at 266.7 78.74 0)
+    (property "Reference" "#PWR0231" (at 266.7 78.74 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 257.81 80.01 0)
@@ -7658,7 +7617,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0231") (unit 1)
         )
       )
     )
@@ -7748,7 +7707,7 @@
     (property "Value" "L_template_name" (at 323.85 125.73 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:L_0603_1608Metric" (at 323.85 130.81 0)
+    (property "Footprint" "antmicro-footprints:" (at 323.85 130.81 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 323.85 133.35 0)
@@ -7851,7 +7810,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 157.48 195.58 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 198.12 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 198.12 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 157.48 200.66 0)
@@ -7888,7 +7847,7 @@
   (symbol (lib_id "antmicropower:GND") (at 181.61 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bb43b75-c337-48ee-a226-aee98a8bd849)
-    (property "Reference" "#PWR?" (at 190.5 181.61 0)
+    (property "Reference" "#PWR0245" (at 190.5 181.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 181.61 184.15 0)
@@ -7910,7 +7869,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0245") (unit 1)
         )
       )
     )
@@ -7919,7 +7878,7 @@
   (symbol (lib_id "antmicropower:GND") (at 58.42 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bda1cdf-d669-46fa-9ea2-ebe5dd909c4c)
-    (property "Reference" "#PWR?" (at 67.31 231.14 0)
+    (property "Reference" "#PWR0255" (at 67.31 231.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 58.42 233.68 0)
@@ -7941,7 +7900,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0255") (unit 1)
         )
       )
     )
@@ -8053,7 +8012,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 157.48 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 179.07 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 179.07 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 157.48 181.61 0)
@@ -8090,7 +8049,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 181.61 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86b38e5f-4f6f-458b-9516-66b7b2ce2683)
-    (property "Reference" "#PWR?" (at 196.85 166.37 0)
+    (property "Reference" "#PWR0246" (at 196.85 166.37 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 181.61 158.75 0)
@@ -8112,7 +8071,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0246") (unit 1)
         )
       )
     )
@@ -8215,7 +8174,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 58.42 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92a6030b-db7a-45be-8b1b-c2f0e1fb8acd)
-    (property "Reference" "#PWR?" (at 73.66 180.34 0)
+    (property "Reference" "#PWR0241" (at 73.66 180.34 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 58.42 172.72 0)
@@ -8237,7 +8196,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0241") (unit 1)
         )
       )
     )
@@ -8442,7 +8401,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 208.28 177.8 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 180.34 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 180.34 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 208.28 182.88 0)
@@ -8526,7 +8485,7 @@
   (symbol (lib_id "antmicropower:GND") (at 314.96 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8688f8d-6c4d-43b4-9c19-0a66a6580ca1)
-    (property "Reference" "#PWR?" (at 323.85 170.18 0)
+    (property "Reference" "#PWR0226" (at 323.85 170.18 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 314.96 171.45 0)
@@ -8548,7 +8507,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -8566,7 +8525,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 208.28 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 238.76 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 238.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 208.28 241.3 0)
@@ -8603,7 +8562,7 @@
   (symbol (lib_id "antmicropower:GND") (at 275.59 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa2320ca-7dcc-4c1d-8ca8-de486e89618c)
-    (property "Reference" "#PWR?" (at 284.48 160.02 0)
+    (property "Reference" "#PWR0235" (at 284.48 160.02 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 275.59 161.29 0)
@@ -8625,7 +8584,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0235") (unit 1)
         )
       )
     )
@@ -8643,7 +8602,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 157.48 234.95 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 237.49 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 157.48 237.49 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 157.48 240.03 0)
@@ -8807,7 +8766,7 @@
     (property "Value" "L_template_name" (at 323.85 110.49 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Footprint" "antmicro-footprints:L_0603_1608Metric" (at 323.85 115.57 0)
+    (property "Footprint" "antmicro-footprints:" (at 323.85 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (at 323.85 118.11 0)
@@ -8901,7 +8860,7 @@
   (symbol (lib_id "antmicropower:GND") (at 181.61 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7e96e86-94b6-451b-b922-440346030ce5)
-    (property "Reference" "#PWR?" (at 190.5 240.03 0)
+    (property "Reference" "#PWR0242" (at 190.5 240.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 181.61 242.57 0)
@@ -8923,7 +8882,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0242") (unit 1)
         )
       )
     )
@@ -9032,7 +8991,7 @@
   (symbol (lib_id "antmicropower:GND") (at 181.61 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2766092-94df-4f35-b52a-835e969fa974)
-    (property "Reference" "#PWR?" (at 190.5 200.66 0)
+    (property "Reference" "#PWR0244" (at 190.5 200.66 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 181.61 203.2 0)
@@ -9054,7 +9013,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0244") (unit 1)
         )
       )
     )
@@ -9063,7 +9022,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 97.79 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4c0bb0e-c66b-4b05-b253-956f58766afc)
-    (property "Reference" "#PWR?" (at 113.03 41.91 0)
+    (property "Reference" "#PWR0259" (at 113.03 41.91 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 97.79 34.29 0)
@@ -9085,7 +9044,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0259") (unit 1)
         )
       )
     )
@@ -9094,7 +9053,7 @@
   (symbol (lib_id "antmicropower:GND") (at 248.92 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c69fc87a-b8df-4c1e-b2df-9a56fff4d3ff)
-    (property "Reference" "#PWR?" (at 257.81 91.44 0)
+    (property "Reference" "#PWR0233" (at 257.81 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 248.92 92.71 0)
@@ -9116,7 +9075,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0233") (unit 1)
         )
       )
     )
@@ -9181,7 +9140,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 208.28 217.17 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 219.71 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 208.28 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 208.28 222.25 0)
@@ -9218,7 +9177,7 @@
   (symbol (lib_id "antmicropower:GND") (at 106.68 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4a7367e-c28f-4a14-8b49-a7c70eb17670)
-    (property "Reference" "#PWR?" (at 115.57 118.11 0)
+    (property "Reference" "#PWR0248" (at 115.57 118.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 106.68 120.65 0)
@@ -9240,7 +9199,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0248") (unit 1)
         )
       )
     )
@@ -9249,7 +9208,7 @@
   (symbol (lib_id "antmicropower:GND") (at 130.81 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4c42bd6-0606-410f-b6f1-9fac55a1fd23)
-    (property "Reference" "#PWR?" (at 139.7 219.71 0)
+    (property "Reference" "#PWR0251" (at 139.7 219.71 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 130.81 222.25 0)
@@ -9271,7 +9230,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0251") (unit 1)
         )
       )
     )
@@ -9324,10 +9283,10 @@
     )
   )
 
-  (symbol (lib_name "+3V3_1") (lib_id "antmicropower:+3V3") (at 130.81 163.83 0) (unit 1)
+  (symbol (lib_id "antmicropower:+3V3") (at 130.81 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc3caee9-fc7c-47e5-994d-bd140d247a58)
-    (property "Reference" "#PWR?" (at 146.05 163.83 0)
+    (property "Reference" "#PWR0252" (at 146.05 163.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 130.81 158.75 0)
@@ -9349,7 +9308,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0252") (unit 1)
         )
       )
     )
@@ -9358,7 +9317,7 @@
   (symbol (lib_id "antmicropower:GND") (at 106.68 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e02b6bb9-f967-4d7d-a3c8-427613c7eb84)
-    (property "Reference" "#PWR?" (at 115.57 55.88 0)
+    (property "Reference" "#PWR0258" (at 115.57 55.88 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 106.68 58.42 0)
@@ -9380,7 +9339,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0258") (unit 1)
         )
       )
     )
@@ -9389,7 +9348,7 @@
   (symbol (lib_id "antmicropower:GND") (at 257.81 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0761f0b-65b5-4ccc-bf1e-830f54288b06)
-    (property "Reference" "#PWR?" (at 266.7 91.44 0)
+    (property "Reference" "#PWR0230" (at 266.7 91.44 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 257.81 92.71 0)
@@ -9411,7 +9370,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0230") (unit 1)
         )
       )
     )
@@ -9420,7 +9379,7 @@
   (symbol (lib_id "antmicropower:GND") (at 345.44 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1f37a99-291f-409b-a207-206ea958aabb)
-    (property "Reference" "#PWR?" (at 354.33 119.38 0)
+    (property "Reference" "#PWR0224" (at 354.33 119.38 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 345.44 120.65 0)
@@ -9442,7 +9401,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -9451,7 +9410,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 248.92 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3c25a75-2d86-4551-995b-5f2d424c057d)
-    (property "Reference" "#PWR?" (at 264.16 54.61 0)
+    (property "Reference" "#PWR0229" (at 264.16 54.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 248.92 46.99 0)
@@ -9473,7 +9432,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0229") (unit 1)
         )
       )
     )
@@ -9529,7 +9488,7 @@
   (symbol (lib_id "antmicropower:GND") (at 181.61 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4dd85f2-cce0-477d-8a01-50f5843f7756)
-    (property "Reference" "#PWR?" (at 190.5 220.98 0)
+    (property "Reference" "#PWR0243" (at 190.5 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 181.61 223.52 0)
@@ -9551,7 +9510,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0243") (unit 1)
         )
       )
     )
@@ -9897,7 +9856,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 124.46 111.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 124.46 114.3 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 124.46 114.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 124.46 116.84 0)
@@ -9984,7 +9943,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 151.13 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbe55137-8ef6-4169-ae02-e5433bfdacb8)
-    (property "Reference" "#PWR?" (at 166.37 38.1 0)
+    (property "Reference" "#PWR0238" (at 166.37 38.1 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 151.13 30.48 0)
@@ -10006,7 +9965,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/db597aea-6022-4be8-a5d9-f0f6712c4ff6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0238") (unit 1)
         )
       )
     )
@@ -10024,7 +9983,7 @@
     (property "Footprint" "antmicro-footprints:Nexperia_DFN-10_2.5x1mm_P0.5mm" (at 123.19 49.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Datasheet" "https://pl.mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 123.19 52.07 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/916/PUSB3F96-1600324.pdf" (at 123.19 52.07 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Manufacturer" "Nexperia" (at 123.19 54.61 0)
