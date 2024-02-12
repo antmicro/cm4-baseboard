@@ -5020,7 +5020,7 @@
     (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
     (uuid 42f48fcb-7419-4e17-83e8-569eb82b1b59)
   )
-  (text "DSICtrl Connector" (at 177.8 147.32 0)
+  (text "Antmicro CM4 Baseboard \nDSI Connector" (at 176.53 152.4 0)
     (effects (font (size 5.08 5.08) (thickness 1.016) bold) (justify left bottom))
     (uuid fe3ad138-8f9e-4805-a5f9-6d7851e07f15)
   )
