@@ -1721,6 +1721,10 @@
     (stroke (width 0) (type default))
     (uuid 1f73a9c3-7e84-4803-985f-05c3052f0808)
   )
+  (wire (pts (xy 217.17 58.42) (xy 231.14 58.42))
+    (stroke (width 0) (type default))
+    (uuid 1f7d752b-30f6-4394-8efc-d93c135fd357)
+  )
   (wire (pts (xy 138.43 167.64) (xy 123.19 167.64))
     (stroke (width 0) (type default))
     (uuid 1f9aa9d9-13df-40b8-b70a-c5aacc079089)
@@ -1795,6 +1799,10 @@
     (stroke (width 0) (type default))
     (uuid 2da81cb3-3467-4a59-ad26-d0e696a0c240)
   )
+  (wire (pts (xy 217.17 40.64) (xy 231.14 40.64))
+    (stroke (width 0) (type default))
+    (uuid 2e0f20e8-279b-4335-9075-ca8cdc93b652)
+  )
   (wire (pts (xy 201.93 194.31) (xy 204.47 194.31))
     (stroke (width 0) (type default))
     (uuid 302c75ab-f01c-45e1-bbee-5b44d2b87452)
@@ -1823,10 +1831,6 @@
   (wire (pts (xy 204.47 190.5) (xy 222.25 190.5))
     (stroke (width 0) (type default))
     (uuid 367b14d0-2a67-4471-8ab2-44c7a5c5ced8)
-  )
-  (wire (pts (xy 217.17 73.66) (xy 234.95 73.66))
-    (stroke (width 0) (type default))
-    (uuid 36be2c3d-feab-4474-94f0-39d170a01c66)
   )
   (bus (pts (xy 214.63 71.12) (xy 214.63 76.2))
     (stroke (width 0) (type default))
@@ -1958,6 +1962,10 @@
     (stroke (width 0) (type default))
     (uuid 4d3c2f90-0fb9-4da6-a95c-365c4e326b7d)
   )
+  (wire (pts (xy 217.17 73.66) (xy 234.95 73.66))
+    (stroke (width 0) (type default))
+    (uuid 4da056f8-0ee4-4c4e-b906-f907d7aa24f3)
+  )
   (wire (pts (xy 243.84 66.04) (xy 243.84 67.31))
     (stroke (width 0) (type default))
     (uuid 4eed5886-7844-4eb2-b731-a885ab32d55f)
@@ -2023,6 +2031,10 @@
     (stroke (width 0) (type default))
     (uuid 5941c8b4-43a1-4796-a0c5-062003e7a5be)
   )
+  (wire (pts (xy 217.17 63.5) (xy 231.14 63.5))
+    (stroke (width 0) (type default))
+    (uuid 5d0f6b02-319f-440e-9375-03975cc277aa)
+  )
   (bus (pts (xy 175.26 182.88) (xy 175.26 187.96))
     (stroke (width 0) (type default))
     (uuid 5e22b2f8-aef8-4fc5-b86e-2c756b3575da)
@@ -2068,6 +2080,10 @@
   (wire (pts (xy 177.8 198.12) (xy 187.96 198.12))
     (stroke (width 0) (type default))
     (uuid 63be0621-ec6c-45c9-b720-30c9b5f1e647)
+  )
+  (wire (pts (xy 217.17 43.18) (xy 231.14 43.18))
+    (stroke (width 0) (type default))
+    (uuid 6440b5ff-7c72-425e-ae7e-d467d9a7c662)
   )
   (wire (pts (xy 161.29 81.28) (xy 177.8 81.28))
     (stroke (width 0) (type default))
@@ -2262,10 +2278,6 @@
     (uuid 8a301e83-615f-4ea6-a375-10c7dcabed72)
   )
 
-  (wire (pts (xy 217.17 40.64) (xy 231.14 40.64))
-    (stroke (width 0) (type default))
-    (uuid 8aa44c64-056c-45e8-a9b0-b6aaaa654dab)
-  )
   (wire (pts (xy 187.96 212.09) (xy 191.77 212.09))
     (stroke (width 0) (type default))
     (uuid 8ab668a6-3ddd-47c8-a882-5650ff210ebd)
@@ -2277,6 +2289,10 @@
   (wire (pts (xy 243.84 50.8) (xy 260.35 50.8))
     (stroke (width 0) (type default))
     (uuid 8ada6cac-f8a4-4406-8913-081700ae0524)
+  )
+  (wire (pts (xy 217.17 50.8) (xy 231.14 50.8))
+    (stroke (width 0) (type default))
+    (uuid 8ccecf60-39ae-4226-b2b2-67f3db8f7c07)
   )
   (wire (pts (xy 177.8 205.74) (xy 187.96 205.74))
     (stroke (width 0) (type default))
@@ -2290,10 +2306,6 @@
   (wire (pts (xy 233.68 198.12) (xy 234.95 198.12))
     (stroke (width 0) (type default))
     (uuid 8e869c17-92b2-43c4-9d11-7f702c847ede)
-  )
-  (wire (pts (xy 217.17 58.42) (xy 231.14 58.42))
-    (stroke (width 0) (type default))
-    (uuid 90ca37f2-a179-4e4e-83c2-74dec98535af)
   )
   (wire (pts (xy 234.95 162.56) (xy 236.22 162.56))
     (stroke (width 0) (type default))
@@ -2337,6 +2349,10 @@
     (stroke (width 0) (type default))
     (uuid 96d73465-9379-4008-96a2-475643209d0d)
   )
+  (wire (pts (xy 217.17 78.74) (xy 234.95 78.74))
+    (stroke (width 0) (type default))
+    (uuid 9748d4d0-5183-437d-b3d0-e98e5b2be0d2)
+  )
   (wire (pts (xy 243.84 39.37) (xy 243.84 40.64))
     (stroke (width 0) (type default))
     (uuid 97d7a32a-a3df-4355-8e35-e30954b2ceab)
@@ -2349,10 +2365,6 @@
   (wire (pts (xy 243.84 50.8) (xy 243.84 52.07))
     (stroke (width 0) (type default))
     (uuid 98430427-61bf-47bc-98ee-06065a7ff9e4)
-  )
-  (wire (pts (xy 217.17 63.5) (xy 231.14 63.5))
-    (stroke (width 0) (type default))
-    (uuid 98f4f200-1baa-4be5-98bd-0df215b28dab)
   )
   (wire (pts (xy 243.84 63.5) (xy 260.35 63.5))
     (stroke (width 0) (type default))
@@ -2459,10 +2471,6 @@
     (stroke (width 0) (type default))
     (uuid b5df719e-4405-4a21-8f70-eb8ce468cd48)
   )
-  (wire (pts (xy 217.17 55.88) (xy 231.14 55.88))
-    (stroke (width 0) (type default))
-    (uuid b6b692f5-a474-4de8-8a70-ef7e373a8c79)
-  )
   (wire (pts (xy 204.47 212.09) (xy 204.47 213.36))
     (stroke (width 0) (type default))
     (uuid b7a8ebf5-f6e2-48f1-aa62-8770341e2c67)
@@ -2526,9 +2534,9 @@
     (stroke (width 0) (type default))
     (uuid c67de28c-83d4-44bf-a4ac-e5fa50e7f778)
   )
-  (wire (pts (xy 217.17 50.8) (xy 231.14 50.8))
+  (wire (pts (xy 217.17 55.88) (xy 231.14 55.88))
     (stroke (width 0) (type default))
-    (uuid c82328fd-50dc-416d-8d6c-8bea6fd8f3b0)
+    (uuid c7453f64-eb61-4e21-81c1-512fbb26930b)
   )
   (wire (pts (xy 138.43 227.33) (xy 123.19 227.33))
     (stroke (width 0) (type default))
@@ -2678,10 +2686,6 @@
     (stroke (width 0) (type default))
     (uuid dd5e65cb-d167-40fd-a3d7-1237e0fa8c20)
   )
-  (wire (pts (xy 217.17 83.82) (xy 234.95 83.82))
-    (stroke (width 0) (type default))
-    (uuid de2cda34-3af1-415e-8b21-090cce4ae396)
-  )
   (wire (pts (xy 242.57 181.61) (xy 242.57 182.88))
     (stroke (width 0) (type default))
     (uuid de99304b-4b1f-48d2-99d1-85be65f5c04f)
@@ -2765,13 +2769,13 @@
     (stroke (width 0) (type default))
     (uuid e82ec7a5-b449-4a29-b569-f0b144706f5e)
   )
+  (wire (pts (xy 217.17 83.82) (xy 234.95 83.82))
+    (stroke (width 0) (type default))
+    (uuid e8aecae1-1888-4bea-bba7-4ed34b70db73)
+  )
   (wire (pts (xy 187.96 189.23) (xy 191.77 189.23))
     (stroke (width 0) (type default))
     (uuid e95efeae-aba9-4313-8f65-2da76dce22d0)
-  )
-  (wire (pts (xy 217.17 78.74) (xy 234.95 78.74))
-    (stroke (width 0) (type default))
-    (uuid e98914ef-e97e-4663-b302-67b581223a38)
   )
   (wire (pts (xy 177.8 193.04) (xy 187.96 193.04))
     (stroke (width 0) (type default))
@@ -2874,10 +2878,6 @@
   (wire (pts (xy 138.43 181.61) (xy 123.19 181.61))
     (stroke (width 0) (type default))
     (uuid fc70411e-2d96-4161-8efe-479e8b209e18)
-  )
-  (wire (pts (xy 217.17 43.18) (xy 231.14 43.18))
-    (stroke (width 0) (type default))
-    (uuid fd4be6fc-1aaf-4256-883f-59b268cab617)
   )
   (wire (pts (xy 243.84 54.61) (xy 243.84 55.88))
     (stroke (width 0) (type default))
@@ -4967,7 +4967,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 236e1109-f365-495b-a6d6-5fd512bd187a)
   )
-  (label "HDMI.D1_N" (at 218.44 50.8 0) (fields_autoplaced)
+  (label "HDMI.D1_N" (at 217.17 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 24ea94d0-7b9c-4f41-b6f4-5ba701648729)
   )
@@ -4975,7 +4975,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2560f3cd-49c5-419c-99a1-26942bd3525d)
   )
-  (label "HDMI.D2_N" (at 218.44 43.18 0) (fields_autoplaced)
+  (label "HDMI.D2_N" (at 217.17 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2613c15c-8743-44f8-b5da-d1e5df97fc2c)
   )
@@ -4995,7 +4995,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 37f304fc-4b9e-4f93-b89d-f0953d9fd90d)
   )
-  (label "HDMI.CLK_N" (at 218.44 66.04 0) (fields_autoplaced)
+  (label "HDMI.CLK_N" (at 217.17 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 384ba396-70a4-42c0-8bf5-e9ca8aa31de5)
   )
@@ -5039,15 +5039,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5c807175-8edf-4e05-8f7e-f384641f0048)
   )
-  (label "HDMI.D0_N" (at 218.44 58.42 0) (fields_autoplaced)
+  (label "HDMI.D0_N" (at 217.17 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5f53783e-7b1f-4b45-81de-1d890042d8ee)
   )
-  (label "HDMI.D0_P" (at 218.44 55.88 0) (fields_autoplaced)
+  (label "HDMI.D0_P" (at 217.17 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67ee41bc-48bd-4834-b045-9349647dda0e)
   )
-  (label "HDMI.HPD" (at 218.44 83.82 0) (fields_autoplaced)
+  (label "HDMI.HPD" (at 217.17 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 68108ad5-485e-49df-9a8c-800baa20998a)
   )
@@ -5071,7 +5071,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 752434eb-ad8a-44fb-a64d-d6170221951a)
   )
-  (label "HDMI.CLK_P" (at 218.44 63.5 0) (fields_autoplaced)
+  (label "HDMI.CLK_P" (at 217.17 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7a4378e6-9ec7-4a7a-85ce-6306ee2c6125)
   )
@@ -5127,11 +5127,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ab3dbac3-afeb-4ad8-8d35-21531b41bc35)
   )
-  (label "HDMI.D2_P" (at 218.44 40.64 0) (fields_autoplaced)
+  (label "HDMI.D2_P" (at 217.17 40.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ac6fba45-619c-4b72-970d-dd053ea02865)
   )
-  (label "HDMI.CEC" (at 218.44 78.74 0) (fields_autoplaced)
+  (label "HDMI.CEC" (at 217.17 78.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b5531bcf-521e-42ce-afed-0510eb1f9b07)
   )
@@ -5159,15 +5159,15 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d14aef1a-e100-409b-904b-6c1d6549bbcf)
   )
-  (label "HDMI.SDA" (at 218.44 73.66 0) (fields_autoplaced)
+  (label "HDMI.SDA" (at 217.17 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dae9b5ca-a431-4e3c-b9fb-ec5c8d8447da)
   )
-  (label "HDMI.D1_P" (at 218.44 48.26 0) (fields_autoplaced)
+  (label "HDMI.D1_P" (at 217.17 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e77389d3-b87d-4d04-8b1a-604a5b17c291)
   )
-  (label "HDMI.SCL" (at 218.44 71.12 0) (fields_autoplaced)
+  (label "HDMI.SCL" (at 217.17 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8cfa99d-6f66-446d-ab41-2e965b22d7e4)
   )
@@ -5208,7 +5208,7 @@
   (symbol (lib_id "antmicroB2BConnectors:Socket_Molex_SlimStack_2x15_541020304") (at 222.25 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 024be04a-f8a9-4a45-b75a-6ce9c9648417)
-    (property "Reference" "J12" (at 227.965 175.26 0)
+    (property "Reference" "J701" (at 227.965 175.26 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "Socket_Molex_SlimStack_2x15_541020304" (at 247.65 187.96 0)
@@ -5268,7 +5268,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "J12") (unit 1)
+          (reference "J701") (unit 1)
         )
       )
     )
@@ -5277,8 +5277,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 191.77 209.55 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 074b5aa9-d839-4d47-b074-3856ba5ed0a7)
-    (property "Reference" "L4" (at 189.23 208.28 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L704" (at 187.96 207.01 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 223.52 201.93 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -5311,7 +5311,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L4") (unit 1)
+          (reference "L704") (unit 1)
         )
       )
     )
@@ -5320,7 +5320,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100R_0402") (at 240.03 83.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0cc944bc-577a-4c4c-bbc4-39d47a6d9898)
-    (property "Reference" "R?" (at 232.41 82.55 0)
+    (property "Reference" "R704" (at 232.41 82.55 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_100R_0402" (at 219.71 71.12 0)
@@ -5355,7 +5355,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "R?") (unit 1)
+          (reference "R704") (unit 1)
         )
       )
     )
@@ -5364,7 +5364,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 123.19 160.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10bbfd3b-fb37-4a0a-b764-515dddb8b0f8)
-    (property "Reference" "D?" (at 109.22 162.5599 0)
+    (property "Reference" "D701" (at 109.22 162.5599 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 97.79 167.64 0)
@@ -5401,7 +5401,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D?") (unit 1)
+          (reference "D701") (unit 1)
         )
       )
     )
@@ -5410,7 +5410,7 @@
   (symbol (lib_id "antmicropower:GND") (at 124.46 252.73 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12ca14a6-25e6-4259-b919-0ebb2f71e804)
-    (property "Reference" "#PWR023" (at 115.57 255.27 0)
+    (property "Reference" "#PWR0705" (at 115.57 255.27 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 124.46 257.81 0)
@@ -5432,7 +5432,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0705") (unit 1)
         )
       )
     )
@@ -5441,7 +5441,7 @@
   (symbol (lib_id "antmicropower:GND") (at 176.53 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b42c2c8-6377-4952-84f9-f093ce358d89)
-    (property "Reference" "#PWR0219" (at 185.42 72.39 0)
+    (property "Reference" "#PWR0707" (at 185.42 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 176.53 73.66 0)
@@ -5463,7 +5463,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0219") (unit 1)
+          (reference "#PWR0707") (unit 1)
         )
       )
     )
@@ -5472,7 +5472,7 @@
   (symbol (lib_id "antmicropower:GND") (at 269.24 180.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28f3bd1d-f667-42db-a194-06a9b8567c12)
-    (property "Reference" "#PWR028" (at 269.24 186.69 0)
+    (property "Reference" "#PWR0718" (at 269.24 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 269.24 184.15 0)
@@ -5494,7 +5494,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0718") (unit 1)
         )
       )
     )
@@ -5503,7 +5503,7 @@
   (symbol (lib_id "antmicropower:GND") (at 220.98 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2cc4b416-b818-44da-a2ea-269cfd8f65c1)
-    (property "Reference" "#PWR015" (at 229.87 224.79 0)
+    (property "Reference" "#PWR0709" (at 229.87 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 220.98 227.33 0)
@@ -5525,7 +5525,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR0709") (unit 1)
         )
       )
     )
@@ -5534,7 +5534,7 @@
   (symbol (lib_id "antmicropower:GND") (at 124.46 171.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3262e585-3082-46db-a15f-5b32a0448a45)
-    (property "Reference" "#PWR0221" (at 115.57 173.99 0)
+    (property "Reference" "#PWR0701" (at 115.57 173.99 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 124.46 176.53 0)
@@ -5556,7 +5556,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0221") (unit 1)
+          (reference "#PWR0701") (unit 1)
         )
       )
     )
@@ -5565,7 +5565,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 177.8 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34171288-8fb7-4fe3-bf98-62ddef102899)
-    (property "Reference" "D?" (at 191.77 44.4499 0)
+    (property "Reference" "D706" (at 191.77 44.4499 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 203.2 48.26 0)
@@ -5602,7 +5602,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D?") (unit 1)
+          (reference "D706") (unit 1)
         )
       )
     )
@@ -5611,8 +5611,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 232.41 59.69 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3be1193d-f4f2-440b-b470-d78544950326)
-    (property "Reference" "L?" (at 229.87 58.42 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L708" (at 228.6 57.15 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 264.16 52.07 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -5645,7 +5645,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L?") (unit 1)
+          (reference "L708") (unit 1)
         )
       )
     )
@@ -5654,7 +5654,7 @@
   (symbol (lib_id "antmicropower:GND") (at 176.53 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 432993ed-e931-462d-9d3d-d56852c049fe)
-    (property "Reference" "#PWR0218" (at 185.42 90.17 0)
+    (property "Reference" "#PWR0708" (at 185.42 90.17 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 176.53 91.44 0)
@@ -5676,7 +5676,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR0708") (unit 1)
         )
       )
     )
@@ -5685,7 +5685,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100R_0402") (at 240.03 73.66 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 433eacb7-bd77-4d81-9c80-efeda2db46d9)
-    (property "Reference" "R?" (at 232.41 72.39 0)
+    (property "Reference" "R702" (at 232.41 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_100R_0402" (at 219.71 60.96 0)
@@ -5720,7 +5720,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "R?") (unit 1)
+          (reference "R702") (unit 1)
         )
       )
     )
@@ -5729,7 +5729,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 177.8 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4583d2db-9dd8-489a-9c82-890998b29126)
-    (property "Reference" "D?" (at 191.77 80.0099 0)
+    (property "Reference" "D708" (at 191.77 80.0099 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 203.2 83.82 0)
@@ -5766,7 +5766,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D?") (unit 1)
+          (reference "D708") (unit 1)
         )
       )
     )
@@ -5775,7 +5775,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 269.24 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 472872e5-de2f-4e7f-951e-3923cf54fb56)
-    (property "Reference" "#PWR026" (at 284.48 172.72 0)
+    (property "Reference" "#PWR0717" (at 284.48 172.72 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 269.24 168.91 0)
@@ -5797,7 +5797,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0717") (unit 1)
         )
       )
     )
@@ -5806,7 +5806,7 @@
   (symbol (lib_id "antmicropower:GND") (at 242.57 182.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bbd36f3-0bcc-4e92-9bb1-804de2d36325)
-    (property "Reference" "#PWR022" (at 242.57 189.23 0)
+    (property "Reference" "#PWR0713" (at 242.57 189.23 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 242.57 186.69 0)
@@ -5828,7 +5828,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR0713") (unit 1)
         )
       )
     )
@@ -5837,7 +5837,7 @@
   (symbol (lib_id "antmicropower:GND") (at 124.46 209.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d83b61b-5ca9-42a7-8007-d314f92f7bfd)
-    (property "Reference" "#PWR0223" (at 115.57 212.09 0)
+    (property "Reference" "#PWR0703" (at 115.57 212.09 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 124.46 214.63 0)
@@ -5859,7 +5859,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0223") (unit 1)
+          (reference "#PWR0703") (unit 1)
         )
       )
     )
@@ -5868,7 +5868,7 @@
   (symbol (lib_id "antmicropower:GND") (at 176.53 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53f82bac-a6ab-4578-b377-04ac750551ac)
-    (property "Reference" "#PWR0220" (at 185.42 54.61 0)
+    (property "Reference" "#PWR0706" (at 185.42 54.61 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 176.53 55.88 0)
@@ -5890,7 +5890,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR0706") (unit 1)
         )
       )
     )
@@ -5899,7 +5899,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 256.54 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56c9a8bc-aa36-4c0b-a655-9841af62db84)
-    (property "Reference" "#PWR021" (at 256.54 176.53 0)
+    (property "Reference" "#PWR0716" (at 256.54 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 257.81 168.91 0)
@@ -5921,7 +5921,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0716") (unit 1)
         )
       )
     )
@@ -5930,8 +5930,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 232.41 44.45 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b7a23cf-48a4-4a26-a019-f2f87a5b48ff)
-    (property "Reference" "L?" (at 229.87 43.18 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L706" (at 228.6 41.91 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 264.16 36.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -5964,7 +5964,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L?") (unit 1)
+          (reference "L706") (unit 1)
         )
       )
     )
@@ -5973,7 +5973,7 @@
   (symbol (lib_id "antmicropower:GND") (at 274.32 180.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6079ee77-2db6-4910-af6a-dfda03046112)
-    (property "Reference" "#PWR029" (at 274.32 186.69 0)
+    (property "Reference" "#PWR0720" (at 274.32 186.69 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 274.32 184.15 0)
@@ -5995,7 +5995,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0720") (unit 1)
         )
       )
     )
@@ -6004,8 +6004,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 232.41 67.31 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 610e5bfd-64c9-4a30-9470-c5ba4656d637)
-    (property "Reference" "L?" (at 229.87 66.04 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L709" (at 228.6 64.77 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 264.16 59.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -6038,7 +6038,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L?") (unit 1)
+          (reference "L709") (unit 1)
         )
       )
     )
@@ -6047,8 +6047,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 191.77 217.17 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62bb9a0e-9060-402f-991f-b04201d5b313)
-    (property "Reference" "L5" (at 189.23 215.9 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L705" (at 187.96 214.63 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 223.52 209.55 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -6081,7 +6081,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L5") (unit 1)
+          (reference "L705") (unit 1)
         )
       )
     )
@@ -6090,7 +6090,7 @@
   (symbol (lib_id "antmicroTVSDiodes:TPD1E0B04_XDFN-2") (at 274.32 179.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63bae2f5-5777-4aeb-8665-482305cee539)
-    (property "Reference" "D6" (at 276.86 175.2599 90)
+    (property "Reference" "D711" (at 276.86 175.2599 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TPD1E0B04_XDFN-2" (at 276.86 177.7999 90)
@@ -6119,7 +6119,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D6") (unit 1)
+          (reference "D711") (unit 1)
         )
       )
     )
@@ -6128,7 +6128,7 @@
   (symbol (lib_id "antmicroResistorNetworksArrays:R_4x100R_0402_array") (at 241.3 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6636c45e-4623-4860-9126-03dd9221bf59)
-    (property "Reference" "R2" (at 246.38 220.98 0)
+    (property "Reference" "R706" (at 246.38 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_4x100R_0402_array" (at 267.97 215.9 0)
@@ -6166,7 +6166,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "R2") (unit 1)
+          (reference "R706") (unit 1)
         )
       )
     )
@@ -6175,7 +6175,7 @@
   (symbol (lib_id "antmicropower:GND") (at 287.02 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6eb479f4-92ba-42a3-af3e-4f818944c00c)
-    (property "Reference" "#PWR0139" (at 287.02 99.06 0)
+    (property "Reference" "#PWR0721" (at 287.02 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 287.02 96.52 0)
@@ -6197,7 +6197,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0721") (unit 1)
         )
       )
     )
@@ -6206,7 +6206,7 @@
   (symbol (lib_id "antmicropower:GND") (at 240.03 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 703d2693-310b-4843-ad07-6f5d98d867b8)
-    (property "Reference" "#PWR024" (at 248.92 163.83 0)
+    (property "Reference" "#PWR0712" (at 248.92 163.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 240.03 165.1 0)
@@ -6228,7 +6228,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR0712") (unit 1)
         )
       )
     )
@@ -6237,7 +6237,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 123.19 179.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 769d11eb-355e-4eaa-9b69-be9b6b22d299)
-    (property "Reference" "D?" (at 109.22 181.6099 0)
+    (property "Reference" "D702" (at 109.22 181.6099 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 97.79 186.69 0)
@@ -6274,7 +6274,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D?") (unit 1)
+          (reference "D702") (unit 1)
         )
       )
     )
@@ -6283,7 +6283,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 274.32 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 776a3c15-9ed3-439d-a8f7-2dc6e80c04f4)
-    (property "Reference" "#PWR027" (at 289.56 172.72 0)
+    (property "Reference" "#PWR0719" (at 289.56 172.72 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 274.32 168.91 0)
@@ -6305,7 +6305,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR0719") (unit 1)
         )
       )
     )
@@ -6314,7 +6314,7 @@
   (symbol (lib_id "antmicropower:GND") (at 234.95 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8367976c-726f-436c-b56a-d64f2c37df1d)
-    (property "Reference" "#PWR013" (at 243.84 224.79 0)
+    (property "Reference" "#PWR0711" (at 243.84 224.79 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 234.95 227.33 0)
@@ -6336,7 +6336,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0711") (unit 1)
         )
       )
     )
@@ -6345,8 +6345,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 191.77 201.93 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8baa3ba3-c92e-43c7-be4a-e1dc88ff1a42)
-    (property "Reference" "L3" (at 189.23 200.66 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L703" (at 187.96 199.39 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 223.52 194.31 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -6379,7 +6379,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L3") (unit 1)
+          (reference "L703") (unit 1)
         )
       )
     )
@@ -6388,7 +6388,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 123.19 241.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e758db9-0c2b-49c4-973b-fdff888dc480)
-    (property "Reference" "D3" (at 109.22 243.8399 0)
+    (property "Reference" "D705" (at 109.22 243.8399 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 97.79 248.92 0)
@@ -6425,7 +6425,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D3") (unit 1)
+          (reference "D705") (unit 1)
         )
       )
     )
@@ -6434,7 +6434,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100R_0402") (at 240.03 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f9e7e25-b725-4461-ae81-2eea1de28d0e)
-    (property "Reference" "R?" (at 232.41 77.47 0)
+    (property "Reference" "R703" (at 232.41 77.47 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_100R_0402" (at 219.71 66.04 0)
@@ -6469,7 +6469,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "R?") (unit 1)
+          (reference "R703") (unit 1)
         )
       )
     )
@@ -6478,7 +6478,7 @@
   (symbol (lib_id "antmicroFerriteBeadsandChips:FB_220Z_2.2A_TDK-MPZ_0603") (at 234.95 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92d4aaa2-c5bc-4ab9-9604-8057338b39a1)
-    (property "Reference" "FB3" (at 237.4519 95.25 0)
+    (property "Reference" "FB701" (at 237.4519 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB_220Z_2.2A_TDK-MPZ_0603" (at 229.87 88.9 0)
@@ -6513,7 +6513,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "FB3") (unit 1)
+          (reference "FB701") (unit 1)
         )
       )
     )
@@ -6522,7 +6522,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_10u_0402") (at 269.24 179.07 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9373efda-6417-4ab3-854a-03a3e57332c0)
-    (property "Reference" "C3" (at 267.97 175.26 90)
+    (property "Reference" "C703" (at 267.97 175.26 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_10u_0402" (at 259.08 158.75 0)
@@ -6560,7 +6560,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "C3") (unit 1)
+          (reference "C703") (unit 1)
         )
       )
     )
@@ -6569,7 +6569,7 @@
   (symbol (lib_id "antmicroResistors0402:R_100R_0402") (at 240.03 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 988fce5a-0c5e-4501-85b9-5bec2527c29c)
-    (property "Reference" "R?" (at 232.41 69.85 0)
+    (property "Reference" "R701" (at 232.41 69.85 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_100R_0402" (at 219.71 58.42 0)
@@ -6604,7 +6604,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "R?") (unit 1)
+          (reference "R701") (unit 1)
         )
       )
     )
@@ -6613,7 +6613,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 123.19 198.12 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6f6047d-8e7b-433a-8c5d-228e605fe579)
-    (property "Reference" "D?" (at 109.22 200.6599 0)
+    (property "Reference" "D703" (at 109.22 200.6599 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 97.79 205.74 0)
@@ -6650,7 +6650,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D?") (unit 1)
+          (reference "D703") (unit 1)
         )
       )
     )
@@ -6659,7 +6659,7 @@
   (symbol (lib_id "antmicropower:+3V3") (at 242.57 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b63c8546-6a9b-4702-b6ad-06321bdafaf3)
-    (property "Reference" "#PWR018" (at 257.81 194.31 0)
+    (property "Reference" "#PWR0714" (at 257.81 194.31 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "+3V3" (at 242.57 190.5 0)
@@ -6681,7 +6681,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR0714") (unit 1)
         )
       )
     )
@@ -6690,7 +6690,7 @@
   (symbol (lib_id "antmicropower:GND") (at 124.46 190.5 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c07eed1c-f57a-4b4b-8fa0-199e611b123a)
-    (property "Reference" "#PWR0222" (at 115.57 193.04 0)
+    (property "Reference" "#PWR0702" (at 115.57 193.04 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 124.46 195.58 0)
@@ -6712,7 +6712,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR0702") (unit 1)
         )
       )
     )
@@ -6721,7 +6721,7 @@
   (symbol (lib_id "antmicropower:+5V") (at 227.33 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3168381-3c97-4f84-8c39-365b39286a42)
-    (property "Reference" "#PWR0134" (at 227.33 93.98 0)
+    (property "Reference" "#PWR0710" (at 227.33 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "+5V" (at 226.06 86.36 0)
@@ -6743,7 +6743,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0710") (unit 1)
         )
       )
     )
@@ -6752,7 +6752,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 234.95 170.18 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c653581d-9768-4b73-abd7-816a430e5a01)
-    (property "Reference" "D4" (at 220.98 167.6401 0)
+    (property "Reference" "D709" (at 220.98 167.6401 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 209.55 162.56 0)
@@ -6789,7 +6789,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D4") (unit 1)
+          (reference "D709") (unit 1)
         )
       )
     )
@@ -6798,7 +6798,7 @@
   (symbol (lib_id "antmicroFerriteBeadsandChips:FB_220Z_2.2A_TDK-MPZ_0603") (at 254 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbf05881-2e4f-44af-892c-6eec769a1675)
-    (property "Reference" "FB4" (at 251.4981 177.8 0)
+    (property "Reference" "FB702" (at 251.4981 177.8 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FB_220Z_2.2A_TDK-MPZ_0603" (at 259.08 171.45 0)
@@ -6833,7 +6833,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "FB4") (unit 1)
+          (reference "FB702") (unit 1)
         )
       )
     )
@@ -6842,7 +6842,7 @@
   (symbol (lib_id "antmicroResistorNetworksArrays:R_4x100R_0402_array") (at 241.3 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf88bb4c-910c-4f56-883f-0e5c1906b958)
-    (property "Reference" "R1" (at 246.38 195.58 0)
+    (property "Reference" "R705" (at 246.38 195.58 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_4x100R_0402_array" (at 267.97 205.74 0)
@@ -6880,7 +6880,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "R1") (unit 1)
+          (reference "R705") (unit 1)
         )
       )
     )
@@ -6889,8 +6889,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 232.41 52.07 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6523819-f0a7-43e9-954a-dc1c64f325f0)
-    (property "Reference" "L?" (at 229.87 50.8 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L707" (at 228.6 49.53 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 264.16 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -6923,7 +6923,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L?") (unit 1)
+          (reference "L707") (unit 1)
         )
       )
     )
@@ -6932,7 +6932,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_10u_0402") (at 254 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6d589b2-7bff-451b-8f35-8cc08510cb23)
-    (property "Reference" "C?" (at 256.54 95.2435 90)
+    (property "Reference" "C702" (at 256.54 95.2435 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_10u_0402" (at 264.16 78.74 0)
@@ -6970,7 +6970,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "C?") (unit 1)
+          (reference "C702") (unit 1)
         )
       )
     )
@@ -6979,8 +6979,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 191.77 186.69 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9b2f448-7221-4c3f-9cef-b2e2fe30bab4)
-    (property "Reference" "L1" (at 189.23 185.42 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L701" (at 187.96 184.15 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 223.52 179.07 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -7013,7 +7013,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L1") (unit 1)
+          (reference "L701") (unit 1)
         )
       )
     )
@@ -7022,7 +7022,7 @@
   (symbol (lib_id "antmicroVideoConnectors:HDMI-A_WE_685119134923") (at 260.35 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dab55ec8-5ca9-4787-97d2-7902226e3da8)
-    (property "Reference" "J10" (at 273.05 33.02 0)
+    (property "Reference" "J702" (at 273.05 33.02 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "HDMI-A_WE_685119134923" (at 273.05 35.56 0)
@@ -7069,7 +7069,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "J10") (unit 1)
+          (reference "J702") (unit 1)
         )
       )
     )
@@ -7078,8 +7078,8 @@
   (symbol (lib_id "antmicroCommonModeChokes:Choke_NFP0QHB242HS2D") (at 191.77 194.31 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e95f5e80-a545-4102-a679-8cd3f6b7b3c2)
-    (property "Reference" "L2" (at 189.23 193.04 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left top))
+    (property "Reference" "L702" (at 187.96 191.77 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "NFP0QHB242HS2D" (at 223.52 186.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -7112,7 +7112,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "L2") (unit 1)
+          (reference "L702") (unit 1)
         )
       )
     )
@@ -7121,7 +7121,7 @@
   (symbol (lib_id "antmicropower:GND") (at 124.46 233.68 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eec25868-a758-4211-98a8-7c63be2ab6cd)
-    (property "Reference" "#PWR020" (at 115.57 236.22 0)
+    (property "Reference" "#PWR0704" (at 115.57 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 124.46 238.76 0)
@@ -7143,7 +7143,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0704") (unit 1)
         )
       )
     )
@@ -7152,7 +7152,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 123.19 222.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f41d1253-70f4-4398-9adb-bc3520df6abe)
-    (property "Reference" "D1" (at 109.22 224.7899 0)
+    (property "Reference" "D704" (at 109.22 224.7899 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 97.79 229.87 0)
@@ -7189,7 +7189,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D1") (unit 1)
+          (reference "D704") (unit 1)
         )
       )
     )
@@ -7198,7 +7198,7 @@
   (symbol (lib_id "antmicroTVSDiodes:PUSB3F96X_PASS") (at 177.8 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4ca151f-e385-401a-834e-9e263b7a15ab)
-    (property "Reference" "D?" (at 191.77 62.2299 0)
+    (property "Reference" "D707" (at 191.77 62.2299 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PUSB3F96X_PASS" (at 203.2 66.04 0)
@@ -7235,7 +7235,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D?") (unit 1)
+          (reference "D707") (unit 1)
         )
       )
     )
@@ -7244,7 +7244,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_10u_0402") (at 242.57 181.61 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f50e1f30-2f5a-47dd-b530-f9f626c013a2)
-    (property "Reference" "C1" (at 241.3 177.8 90)
+    (property "Reference" "C701" (at 241.3 177.8 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_10u_0402" (at 232.41 161.29 0)
@@ -7282,7 +7282,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "C1") (unit 1)
+          (reference "C701") (unit 1)
         )
       )
     )
@@ -7291,7 +7291,7 @@
   (symbol (lib_id "antmicropower:GND") (at 254 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f6157e64-6413-473b-a398-5544b7c614e3)
-    (property "Reference" "#PWR0138" (at 254 106.68 0)
+    (property "Reference" "#PWR0715" (at 254 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 254 104.14 0)
@@ -7313,7 +7313,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0715") (unit 1)
         )
       )
     )
@@ -7322,7 +7322,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G") (at 243.84 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd33eeb8-2801-44bb-9595-f866ee519993)
-    (property "Reference" "D21" (at 246.38 86.36 0)
+    (property "Reference" "D710" (at 246.38 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Value" "RB521S30T1G" (at 242.57 88.9 0)
@@ -7351,7 +7351,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/b148dc70-7270-4ae3-80a1-580624d4cd31"
-          (reference "D21") (unit 1)
+          (reference "D710") (unit 1)
         )
       )
     )
