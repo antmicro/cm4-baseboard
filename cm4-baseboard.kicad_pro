@@ -461,13 +461,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.208,
         "diff_pair_gap": 0.208,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.153,
@@ -477,14 +477,14 @@
         "name": "Diff_100",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.153,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.205,
         "diff_pair_gap": 0.205,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.155,
@@ -494,31 +494,31 @@
         "name": "Diff_100: 1G",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "track_width": 0.155,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.125,
-        "diff_pair_gap": 0.144,
+        "clearance": 0.21,
+        "diff_pair_gap": 0.21,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.186,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_85: 5G",
+        "name": "Diff_100: 5G",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.196,
         "diff_pair_gap": 0.196,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.182,
@@ -528,7 +528,7 @@
         "name": "Diff_90",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
+        "track_width": 0.182,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -546,8 +546,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
-        "via_diameter": 0.5,
-        "via_drill": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
         "wire_width": 6
       }
     ],
@@ -590,12 +590,16 @@
         "pattern": "*HDMI*_P"
       },
       {
-        "netclass": "Diff_85: 5G",
+        "netclass": "Diff_100: 5G",
         "pattern": "*NVMe*_N"
       },
       {
-        "netclass": "Diff_85: 5G",
+        "netclass": "Diff_100: 5G",
         "pattern": "*NVMe*_P"
+      },
+      {
+        "netclass": "Diff_100: 5G",
+        "pattern": "/Compute module/??_?"
       }
     ]
   },
