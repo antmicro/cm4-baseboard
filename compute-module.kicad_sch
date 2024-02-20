@@ -10870,10 +10870,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R") (at 182.88 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005fecfb4a)
-    (property "Reference" "SP201" (at 191.77 238.7599 0)
+    (property "Reference" "H201" (at 191.77 238.7599 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Value" "Spacer_H3mm_9774030151" (at 191.77 241.2999 0)
+    (property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R" (at 191.77 241.2999 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R" (at 205.74 247.65 0)
@@ -10898,7 +10898,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/00000000-0000-0000-0000-00005fea17c4"
-          (reference "SP201") (unit 1)
+          (reference "H201") (unit 1)
         )
       )
     )
@@ -10907,10 +10907,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R") (at 182.88 248.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005fed09b8)
-    (property "Reference" "SP202" (at 191.77 247.6499 0)
+    (property "Reference" "H202" (at 191.77 247.6499 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Value" "Spacer_H3mm_9774030151" (at 191.77 250.1899 0)
+    (property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R" (at 191.77 250.1899 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R" (at 205.74 256.54 0)
@@ -10935,7 +10935,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/00000000-0000-0000-0000-00005fea17c4"
-          (reference "SP202") (unit 1)
+          (reference "H202") (unit 1)
         )
       )
     )
@@ -10944,10 +10944,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R") (at 182.88 257.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005fed0d6c)
-    (property "Reference" "SP203" (at 191.77 256.5399 0)
+    (property "Reference" "H203" (at 191.77 256.5399 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Value" "Spacer_H3mm_9774030151" (at 191.77 259.0799 0)
+    (property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R" (at 191.77 259.0799 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R" (at 205.74 265.43 0)
@@ -10972,7 +10972,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/00000000-0000-0000-0000-00005fea17c4"
-          (reference "SP203") (unit 1)
+          (reference "H203") (unit 1)
         )
       )
     )
@@ -10981,10 +10981,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H3mm_9774030151R") (at 182.88 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005fed1044)
-    (property "Reference" "SP204" (at 191.77 265.4299 0)
+    (property "Reference" "H204" (at 191.77 265.4299 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Value" "Spacer_H3mm_9774030151" (at 191.77 267.9699 0)
+    (property "Value" "Spacer_Drill3.7mm_H3mm_9774030151R" (at 191.77 267.9699 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H3mm_9774030151R" (at 205.74 274.32 0)
@@ -11009,7 +11009,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/00000000-0000-0000-0000-00005fea17c4"
-          (reference "SP204") (unit 1)
+          (reference "H204") (unit 1)
         )
       )
     )

@@ -2498,10 +2498,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62c1a2cc-bb77-43ee-85cd-2f6a8cf26986)
-    (property "Reference" "SP102" (at 389.89 223.52 0)
+    (property "Reference" "H102" (at 389.89 223.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Spacer_H6mm_9774060151" (at 389.89 224.7899 0)
+    (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 224.7899 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 232.41 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d"
-          (reference "SP102") (unit 1)
+          (reference "H102") (unit 1)
         )
       )
     )
@@ -2535,10 +2535,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fdccf63-bb96-41f6-af18-7810062aaa08)
-    (property "Reference" "SP101" (at 389.89 217.17 0)
+    (property "Reference" "H101" (at 389.89 217.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Spacer_H6mm_9774060151" (at 389.89 218.4399 0)
+    (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 218.4399 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 226.06 0)
@@ -2563,7 +2563,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d"
-          (reference "SP101") (unit 1)
+          (reference "H101") (unit 1)
         )
       )
     )
@@ -2572,10 +2572,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c28b275a-9b3c-4508-b0fa-e8b33fcaa119)
-    (property "Reference" "SP104" (at 389.89 236.22 0)
+    (property "Reference" "H104" (at 389.89 236.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Spacer_H6mm_9774060151" (at 389.89 237.4899 0)
+    (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 237.4899 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 245.11 0)
@@ -2600,7 +2600,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d"
-          (reference "SP104") (unit 1)
+          (reference "H104") (unit 1)
         )
       )
     )
@@ -2609,10 +2609,10 @@
   (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e909052e-369a-4466-978f-738e1bebb77e)
-    (property "Reference" "SP103" (at 389.89 229.87 0)
+    (property "Reference" "H103" (at 389.89 229.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Spacer_H6mm_9774060151" (at 389.89 231.1399 0)
+    (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 231.1399 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 238.76 0)
@@ -2637,7 +2637,7 @@
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d"
-          (reference "SP103") (unit 1)
+          (reference "H103") (unit 1)
         )
       )
     )
