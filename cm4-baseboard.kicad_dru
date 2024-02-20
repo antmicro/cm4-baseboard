@@ -1,9 +1,10 @@
 (version 1)
 
-(rule "Inner diff Z100"
+(rule "Inner CSI"
 	(layer inner)
-	(condition "A.NetClass == 'Diff_100: 1G' && A.inDiffPair('*')")
+	(condition "A.NetClass == '100Ohm-diff_CSI: 1G' && A.inDiffPair('*')")
 	(constraint diff_pair_gap (opt 0.28mm))
 	(constraint track_width (opt 0.14mm))
 	(constraint clearance (min 0.28mm))
 )
+

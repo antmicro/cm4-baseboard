@@ -467,17 +467,17 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.208,
-        "diff_pair_gap": 0.208,
+        "clearance": 0.205,
+        "diff_pair_gap": 0.205,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.153,
+        "diff_pair_width": 0.155,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_100",
+        "name": "100Ohm-diff_CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.153,
+        "track_width": 0.155,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -491,10 +491,44 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_100: 1G",
+        "name": "100Ohm-diff_DSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.155,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.208,
+        "diff_pair_gap": 0.208,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.153,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff_ETH",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.153,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.208,
+        "diff_pair_gap": 0.208,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.153,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "100Ohm-diff_HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.153,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -508,7 +542,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_100: 5G",
+        "name": "100Ohm-diff_PCIe2.0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -525,7 +559,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Diff_90",
+        "name": "90Ohm-diff_USB2.0",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.182,
@@ -558,47 +592,47 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Diff_100",
+        "netclass": "100Ohm-diff_ETH",
         "pattern": "*ETHERNET.D*"
       },
       {
-        "netclass": "Diff_90",
+        "netclass": "90Ohm-diff_USB2.0",
         "pattern": "*USB*D_P"
       },
       {
-        "netclass": "Diff_90",
+        "netclass": "90Ohm-diff_USB2.0",
         "pattern": "*USB*D_N"
       },
       {
-        "netclass": "Diff_100: 1G",
+        "netclass": "100Ohm-diff_CSI",
         "pattern": "*CSI*_P"
       },
       {
-        "netclass": "Diff_100: 1G",
+        "netclass": "100Ohm-diff_CSI",
         "pattern": "*CSI*_N"
       },
       {
-        "netclass": "Diff_100: 1G",
+        "netclass": "100Ohm-diff_DSI",
         "pattern": "*DSI.*"
       },
       {
-        "netclass": "Diff_100",
+        "netclass": "100Ohm-diff_HDMI",
         "pattern": "*HDMI*_N"
       },
       {
-        "netclass": "Diff_100: 1G",
+        "netclass": "100Ohm-diff_HDMI",
         "pattern": "*HDMI*_P"
       },
       {
-        "netclass": "Diff_100: 5G",
+        "netclass": "100Ohm-diff_PCIe2.0",
         "pattern": "*NVMe*_N"
       },
       {
-        "netclass": "Diff_100: 5G",
+        "netclass": "100Ohm-diff_PCIe2.0",
         "pattern": "*NVMe*_P"
       },
       {
-        "netclass": "Diff_100: 5G",
+        "netclass": "100Ohm-diff_PCIe2.0",
         "pattern": "/Compute module/??_?"
       }
     ]
