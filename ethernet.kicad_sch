@@ -6456,7 +6456,7 @@
   )
 
   (symbol (lib_id "antmicropower:GNDD") (at 247.65 201.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 603d7324-d654-42fc-8f61-474b8fa0b475)
     (property "Reference" "#PWR0410" (at 247.65 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
