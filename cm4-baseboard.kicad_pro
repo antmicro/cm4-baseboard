@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -552,6 +552,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm-se_SDIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.164,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.196,
         "diff_pair_gap": 0.196,
         "diff_pair_via_gap": 0.25,
@@ -563,23 +580,6 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.182,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.12,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SE_50",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -634,6 +634,10 @@
       {
         "netclass": "100Ohm-diff_PCIe2.0",
         "pattern": "/Compute module/??_?"
+      },
+      {
+        "netclass": "50Ohm-se_SDIO",
+        "pattern": "*SDIO*"
       }
     ]
   },
