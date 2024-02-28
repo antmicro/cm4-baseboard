@@ -5,6 +5,5 @@
 	(condition "A.NetClass == '100Ohm-diff_CSI' && A.inDiffPair('*')")
 	(constraint diff_pair_gap (opt 0.335mm))
 	(constraint track_width (opt 0.138mm))
-	(constraint clearance (min 0.28mm))
 )
 
