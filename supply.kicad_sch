@@ -5066,7 +5066,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid c7db24fb-a51d-4081-a1d5-f64ee962f069)
   )
-  (text "VCC(9-15V, nom. 12V):\n	DCDC 5V: 2.8A\n	DCDC 3V3: 1.1A x2\n	LVDS disp.: 200mA \n5V @6A:\n	HDMI: 50mA+\n	UART/USB: 50mA?\n	USB source: 3A (depends on FT4233 settings)\n	LVDS disp.: 150mA\n	CM: 2A(RPi)/3A(PF)\n"
+  (text "VCC(9-15V, nom. 12V):\n	DCDC 5V: 2.8A\n	DCDC 3V3: 1.1A x2\n	LVDS disp.: 200mA \n5V @6A:\n	HDMI: 50mA+\n	UART/USB: 50mA?\n	USB source: 1.5A\n	LVDS disp.: 150mA\n	CM: 2A(RPi)/3A(PF)\n"
     (at 21.59 72.39 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid ee2518e3-cb21-43b3-a4d5-c2de0a9b8cd0)
