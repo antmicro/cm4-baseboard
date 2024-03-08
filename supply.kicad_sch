@@ -5082,12 +5082,7 @@
     )
   )
 
-  (text "Note: \nRecomended 10.5-15V when using LVDS display"
-    (at 22.86 111.76 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 1b86bad2-60e1-4033-9b09-a8dc887c8181)
-  )
-  (text " (NFC, CSI, SD, Proximity, UART/USB)" (at 220.98 212.09 0)
+  (text " (NFC, CSI, SD, Proximity, ..)" (at 220.98 212.09 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 28d8d22d-78e9-427d-8d21-5f1bb5a23d4c)
   )
@@ -5115,7 +5110,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0673e6b-595d-44d6-ac1e-378c5cd839fa)
   )
-  (text "Primary power - DC Jack input (9-15V)\n" (at 22.86 106.68 0)
+  (text "Primary power - DC Jack input (9-15V)\n" (at 22.86 109.22 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid c173796b-6a13-462a-8335-e0296d915b99)
   )
@@ -5123,13 +5118,13 @@
     (effects (font (size 2.5 2.5) (thickness 0.5) bold) (justify left bottom))
     (uuid c568f9d7-f96a-40de-9300-306a2eee4763)
   )
-  (text "3V3 @3A:\n	LED Strip: 1A (may be switched to 5V)\n	CSI: 1.5A?\n	SD card: 100m+?\n	NFC: 350mA+\n	proximity: 50mA?\n3V3-NVMe @3A:\n	M.2: 3A\n3V3 @600mA (from CM4)\n	unused\n1V8 @600mA (from CM4)\n	DSI/LVDS (DSI84): 150mA"
-    (at 127 80.01 0)
+  (text "3V3 @3A:\n	GPIO conn: 3A (max)\n	CSI: 1.5A (max)\n	LED Strip: 1A (may be switched to 5V)\n	DSI adapter: 0.5A (max)\n	NFC: 350mA+\n	SD card: 100m+?\n	proximity: 50mA/ 1A (max)\n	GPIO expander/levelshifters: 50mA\n3V3-NVMe @3A:\n	M.2: 3A\n3V3 @600mA (from CM4)\n	unused\n1V8 @600mA (from CM4)\n	unused"
+    (at 119.38 81.28 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid c7db24fb-a51d-4081-a1d5-f64ee962f069)
   )
-  (text "VCC(9-15V, nom. 12V):\n	DCDC 5V: 2.8A\n	DCDC 3V3: 1.1A x2\n	LVDS disp.: 200mA \n5V @6A:\n	HDMI: 50mA+\n	UART/USB: 50mA?\n	USB source: 1.5A\n	LVDS disp.: 150mA\n	CM: 2A(RPi)/3A(PF)\n"
-    (at 21.59 72.39 0)
+  (text "VCC(9-15V, nom. 12V):\n	DCDC 5V: 2.8A\n	DCDC 3V3: 1.1A x2\n5V @6A:\n	CM: 2A(RPi)/3A(PF)\n	GPIO conn.: 3A(max)\n	USB source: 1.5A\n	CSI: 1.5A(max)\n	LED Strip (DNP): 1A\n	DSI adapter: 0.8A(LVDS); 2A(max)\n	HDMI: 50mA+\n"
+    (at 26.67 76.2 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid ee2518e3-cb21-43b3-a4d5-c2de0a9b8cd0)
   )

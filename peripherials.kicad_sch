@@ -744,7 +744,7 @@
           (name "VEN/~{RST}" (effects (font (size 1.27 1.27))))
           (number "10" (effects (font (size 1.27 1.27))))
         )
-        (pin no_connect line (at 22.86 -2.54 270) (length 2.54) hide
+        (pin no_connect line (at 21.59 -2.54 270) (length 2.54) hide
           (name "IC" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
@@ -860,7 +860,7 @@
           (name "DCDC_EN" (effects (font (size 1.27 1.27))))
           (number "37" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 22.86 -2.54 270) (length 2.54) hide
+        (pin no_connect line (at 24.13 -2.54 270) (length 2.54) hide
           (name "IC" (effects (font (size 1.27 1.27))))
           (number "38" (effects (font (size 1.27 1.27))))
         )
@@ -6171,6 +6171,10 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 62db26be-4560-44ef-8674-5816ffd33325)
   )
+  (hierarchical_label "GPIO{GPIO}" (shape bidirectional) (at 163.83 166.37 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6fde8c5a-ac0b-4313-a660-561e5c2e2d7a)
+  )
   (hierarchical_label "I_{2}C1{I_{2}C}" (shape bidirectional) (at 163.83 35.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a6e5a82e-de54-422c-ab4a-9d7d8d9ec172)
@@ -6178,6 +6182,10 @@
   (hierarchical_label "GPIO{GPIO}" (shape bidirectional) (at 78.74 168.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid af6dd213-bc53-4974-8155-1bee197dc9d6)
+  )
+  (hierarchical_label "GPIO{GPIO}" (shape bidirectional) (at 111.76 165.1 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c9874ba2-beb0-4773-8203-e8e6c191a023)
   )
   (hierarchical_label "I_{2}C1{I_{2}C}" (shape bidirectional) (at 266.7 116.84 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))

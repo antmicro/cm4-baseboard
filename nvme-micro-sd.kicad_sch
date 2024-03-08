@@ -455,8 +455,13 @@
       (property "ki_keywords" "HORIZONTAL, SMT, PCIE, CONNECTOR" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Card Edge Connector, 0, Dual Side, 67 Contacts, Surface Mount, Right Angle, Solder" (at 0 0 0)
+      (property "ki_description" "Key M Card Edge Connector, 0, Dual Side, 67 Contacts, Surface Mount, Right Angle, Solder" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Bus_M.2_1-2199230-6_0_0"
+        (text "KEY M" (at 15.24 0 0)
+          (effects (font (size 1.27 1.27) bold))
+        )
       )
       (symbol "Bus_M.2_1-2199230-6_1_1"
         (rectangle (start 3.81 2.54) (end 26.67 -80.01)
