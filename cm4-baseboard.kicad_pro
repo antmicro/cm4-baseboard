@@ -541,9 +541,9 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.18,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.135,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -732,6 +732,10 @@
       {
         "netclass": "PoE",
         "pattern": "/Ethernet/*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Ethernet/POE_12V"
       }
     ]
   },
