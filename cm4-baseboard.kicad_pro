@@ -618,7 +618,7 @@
         "name": "50Ohm-se_SDIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.164,
+        "track_width": 0.21,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
