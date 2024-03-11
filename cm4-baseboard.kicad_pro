@@ -550,7 +550,7 @@
         "name": "100Ohm-diff_CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.135,
+        "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -558,16 +558,16 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.18,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.135,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_DSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.135,
+        "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -575,16 +575,16 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.18,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.132,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_ETH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.132,
+        "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -592,33 +592,16 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.2,
+        "diff_pair_gap": 0.18,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.132,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100Ohm-diff_HDMI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.132,
-        "via_diameter": 0.45,
-        "via_drill": 0.1,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.135,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "100Ohm-diff_PCIe2.0",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.135,
+        "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -636,6 +619,23 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.164,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.17,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm-diff_PCIe2.0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -714,15 +714,15 @@
         "pattern": "*HDMI*_P"
       },
       {
-        "netclass": "100Ohm-diff_PCIe2.0",
+        "netclass": "90Ohm-diff_PCIe2.0",
         "pattern": "*NVMe*_N"
       },
       {
-        "netclass": "100Ohm-diff_PCIe2.0",
+        "netclass": "90Ohm-diff_PCIe2.0",
         "pattern": "*NVMe*_P"
       },
       {
-        "netclass": "100Ohm-diff_PCIe2.0",
+        "netclass": "90Ohm-diff_PCIe2.0",
         "pattern": "/Compute module/??_?"
       },
       {
