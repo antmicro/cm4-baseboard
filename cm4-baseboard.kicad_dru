@@ -7,3 +7,8 @@
 	(constraint track_width (opt 0.138mm))
 )
 
+(rule "Track-edge clearance"
+	(condition "A.Type == 'Track'")
+	(constraint edge_clearance (min 0.4mm))
+)
+
