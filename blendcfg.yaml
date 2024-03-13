@@ -1,33 +1,44 @@
 default: &default
-  SCENE:
-    LIGHTS_COLOR: FFFFFF
-    LIGHTS_INTENSITY: 20000
-    WIDTH: 1920
-    HEIGHT: 1920
-    CYCLES_SAMPLES: 32
-
-  EFFECTS:
-    DEPTH_OF_FIELD: True
-    STACKUP: False                  # if True, requires stackup.json output 
-    SHOW_MECHANICAL: False
-    SHOW_MARKINGS: False            # if True, requires *bom-populated.csv output
-    
   SETTINGS:
-    USE_INKSCAPE: False             # use when board has overlapping holes footprints, fixes mesh generation 
+    CYCLES_SAMPLES: 32              # quality of final render, influences rendering speed
+    DPI: 600                        # quality of bitmaps exported from Gerbers, influences board model creation time
     DEFAULT_BRD_THICKNESS: 1.6      # used when stackup effect is turned off
-    DPI: 600
     SILKSCREEN: White               # options: White (default), Black
     SOLDERMASK: Black               # options: Black (default), White, Green, Blue, Red
                                     # for custom color, type pair of hex values: AABBCC, DDEEFF (colors for areas with and without copper beneath)
+    USE_INKSCAPE: False             # use when board has overlapping holes footprints, sometimes fixes mesh generation 
+    FPS: 25                         # animations FPS
+    WIDTH: 1920
+    HEIGHT: 1920
+    WEBM_WIDTH: 740
+    WEBM_HEIGHT: 740
+    THUMBNAIL_WIDTH: 320
+    THUMBNAIL_HEIGHT: 320
+    KEEP_PNGS: False
+    THUMBNAILS: True                # enables thumbnails for eligible outputs
+    INTERACTIVE: Default            # reference pool for hotareas ("Default" (["A", "J", "PS", "T", "U", "IC", "POT"]) or list)
+
+  EFFECTS:
+    LIGHTS_COLOR: FFFFFF
+    LIGHTS_INTENSITY: 20000
+    DEPTH_OF_FIELD: True
+    STACKUP: False                  # if True, requires stackup.json output 
+    SHOW_MECHANICAL: False
+    SHOW_MARKINGS: True             # if True, requires *bom-populated.csv output
+    SHOW_MECHANICAL: False          # imports additional components like plugs
+    SHOW_MARKINGS: True             # if True, requires *bom-populated.csv output           
+    
   OUTPUT:
     RENDERS: True
-    FREESTYLE: False
+    STACKUP: False                    # if True, requires stackup.json output, generates board split into layers
+    HOTAREAS: False                   # if True, hotareas for components will be rendered for picked views
     ANIMATIONS: False
-    WEBSITE: False
+    TRANSITIONS: False, Renders       # options = All - renders all 28 transitions, Renders - renders transitions for views picked in RENDERS settings
+    FREESTYLE: False                  # wireframe rendering (legacy and not maintained)
 
-  CYCLES:
-    TOP: True, Black
-    BOTTOM: True, Black
+  RENDERS:
+    TOP: True, Black                # options: Black, White, SeeThrough (no bg)
+    BOTTOM: True, Black            # can be multiple values
     ORTHO: False
     ISO: True
     PERSP: False
@@ -37,10 +48,6 @@ default: &default
     PHOTO: True
 
   ANIMATION:
-    KEEP_PNGS: False
-    WIDTH: 1920
-    HEIGHT: 1920
-    FPS: 30
     CAMERA360: False
     CAMERA180: False
     CAMERA_OVAL: False
@@ -48,49 +55,57 @@ default: &default
     COMP_PLACE: False
     STACKUP_EXPLODE: False
     LED_ON: False
+    
+hardware_portal:
+  <<: *default
+  EFFECTS:
+    LIGHTS_COLOR: FFFFFF
+    LIGHTS_INTENSITY: 20000
+    DEPTH_OF_FIELD: True
+    SHOW_MECHANICAL: False   
+    SHOW_MARKINGS: True                    
 
-  WEBSITE:
-    KEEP_PNGS: False
-    WIDTH: 1200
-    HEIGHT: 1200
+  OUTPUT:
+    RENDERS: False
+    STACKUP: True
+    HOTAREAS: True            
+    ANIMATIONS: False
+    TRANSITIONS: True, All  
+    FREESTYLE: False       
+
+debug:
+  <<: *default
+  SETTINGS:
+    CYCLES_SAMPLES: 2              
+    DPI: 600                        
+    DEFAULT_BRD_THICKNESS: 1.6      
+    SILKSCREEN: White              
+    SOLDERMASK: Black                       
+    USE_INKSCAPE: False          
+    FPS: 5                         
+    WIDTH: 1000
+    HEIGHT: 1000
     WEBM_WIDTH: 740
     WEBM_HEIGHT: 740
     THUMBNAIL_WIDTH: 320
     THUMBNAIL_HEIGHT: 320
-    WEBSITE_FPS: 25
-    WEBSITE_HOTAREAS: True
-    WEBSITE_TRANSITIONS: True
-    WEBSITE_STACKUP: True
+    KEEP_PNGS: True
+    THUMBNAILS: True                
     INTERACTIVE: Default
 
-
-hardware_portal:
-  <<: *default
-  OUTPUT:
-    RENDERS: False
-    FREESTYLE: False
-    SVG_EXPORTER: False
-    ANIMATIONS: False
-    WEBSITE: True
-
-debug:
-  <<: *default
-  SCENE:
-    LIGHTS_COLOR: FFFFFF
-    LIGHTS_INTENSITY: 20000
-    WIDTH: 1920
-    HEIGHT: 1920
-    CYCLES_SAMPLES: 2
   OUTPUT:
     RENDERS: True
-    FREESTYLE: False
+    STACKUP: True                    
+    HOTAREAS: True                    
     ANIMATIONS: False
-    WEBSITE: True
-  CYCLES:
-    TOP: True, Black
-    BOTTOM: True, Black
+    TRANSITIONS: True, All  
+    FREESTYLE: False 
+
+  RENDERS: 
+    TOP: True, Black                
+    BOTTOM: True, Black            
     ORTHO: True
-    ISO: False
+    ISO: True
     PERSP: False
     FRONT: False
     LEFT: False
