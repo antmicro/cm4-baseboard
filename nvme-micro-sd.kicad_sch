@@ -4706,7 +4706,7 @@
   )
 
   (symbol (lib_id "antmicroModules:Mech_M2_2280_H2.5mm") (at 234.95 121.92 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2493ff18-2480-43aa-8ab2-cd1ea8960445)
     (property "Reference" "M501" (at 229.87 107.95 0)
       (effects (font (size 1.27 1.27)))
@@ -4731,9 +4731,6 @@
     )
     (property "License" "Apache-2.0" (at 209.55 109.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 229.87 113.03 0)
-      (effects (font (size 1.27 1.27)))
     )
     (instances
       (project "cm4-baseboard"
