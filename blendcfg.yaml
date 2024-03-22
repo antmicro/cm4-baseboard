@@ -15,6 +15,7 @@ default: &default
     THUMBNAIL_WIDTH: 320
     THUMBNAIL_HEIGHT: 320
     KEEP_PNGS: False
+    SAVE_SCENE: False   
     THUMBNAILS: True                # enables thumbnails for eligible outputs
     INTERACTIVE: Default            # reference pool for hotareas ("Default" (["A", "J", "PS", "T", "U", "IC", "POT"]) or list)
 
@@ -24,9 +25,7 @@ default: &default
     DEPTH_OF_FIELD: True
     STACKUP: False                  # if True, requires stackup.json output 
     SHOW_MECHANICAL: False
-    SHOW_MARKINGS: True             # if True, requires *bom-populated.csv output
-    SHOW_MECHANICAL: False          # imports additional components like plugs
-    SHOW_MARKINGS: True             # if True, requires *bom-populated.csv output           
+    SHOW_MARKINGS: True             # if True, requires *bom-populated.csv output        
     
   OUTPUT:
     RENDERS: True
