@@ -13,14 +13,14 @@
   )
 
   (lib_symbols
-    (symbol "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R" (in_bom yes) (on_board yes)
+    (symbol "cm4-baseboard:Spacer_Drill3.7mm_H6mm_9774060151R" (in_bom yes) (on_board yes)
       (property "Reference" "H" (at 22.86 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
       )
       (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 22.86 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
-      (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 22.86 -7.62 0)
+      (property "Footprint" "cm4-baseboard-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 22.86 -7.62 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
       (property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf" (at 22.86 -10.16 0)
@@ -59,7 +59,8 @@
         )
       )
     )
-    (symbol "antmicropower:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+
+    (symbol "cm4-baseboard:GND" (power) (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 8.89 -2.54 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
       )
@@ -99,15 +100,6 @@
     )
   )
 
-  (bus_alias "CSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
-  (bus_alias "DSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
-  (bus_alias "Ethernet" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "LED_ACT" "LED_LINK"))
-  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "SCL" "SDA" "CEC" "HPD"))
-  (bus_alias "I_{2}C" (members "SCL" "SDA"))
-  (bus_alias "PCIe" (members "TX0_P" "TX0_N" "RX0_P" "RX0_N" "CLK_P" "CLK_N" "TX1_N" "TX2_N" "TX3_N" "TX1_P" "TX2_P" "TX3_P" "RX1_N" "RX2_N" "RX3_N" "RX1_P" "RX2_P" "RX3_P" "~{RST}" "~{CLK_REQ}"))
-  (bus_alias "SDIO" (members "D0" "D1" "D2" "D3" "CMD" "CLK" "CD"))
-  (bus_alias "UART" (members "TX" "RX"))
-  (bus_alias "USB" (members "RX_P" "RX_N" "TX_P" "TX_N" "D_P" "D_N" "OTGID"))
   (junction (at 321.31 157.48) (diameter 0) (color 0 0 0 0)
     (uuid 1348953a-480f-45a8-a37e-fca0886340a9)
   )
@@ -127,6 +119,16 @@
     (uuid bf72038c-d9f6-4e34-a341-0db3c209e829)
   )
 
+  (bus_alias "CSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
+  (bus_alias "DSI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "CLK_P" "CLK_N"))
+  (bus_alias "Ethernet" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "D3_P" "D3_N" "LED_ACT" "LED_LINK"))
+  (bus_alias "HDMI" (members "D0_P" "D0_N" "D1_P" "D1_N" "D2_P" "D2_N" "CLK_P" "CLK_N" "SCL" "SDA" "CEC" "HPD"))
+  (bus_alias "I_{2}C" (members "SCL" "SDA"))
+  (bus_alias "PCIe" (members "TX0_P" "TX0_N" "RX0_P" "RX0_N" "CLK_P" "CLK_N" "TX1_N" "TX2_N" "TX3_N" "TX1_P" "TX2_P" "TX3_P" "RX1_N" "RX2_N" "RX3_N" "RX1_P" "RX2_P" "RX3_P" "~{RST}" "~{CLK_REQ}"))
+  (bus_alias "SDIO" (members "D0" "D1" "D2" "D3" "CMD" "CLK" "CD"))
+  (bus_alias "UART" (members "TX" "RX"))
+  (bus_alias "USB" (members "RX_P" "RX_N" "TX_P" "TX_N" "D_P" "D_N" "OTGID"))
+
   (bus (pts (xy 254 78.74) (xy 276.86 78.74))
     (stroke (width 0) (type default))
     (uuid 00059785-0313-40f4-847b-664cc295fe2b)
@@ -135,7 +137,6 @@
     (stroke (width 0) (type default))
     (uuid 012d7a39-7bf8-40ce-9f7c-28b42084a180)
   )
-
   (wire (pts (xy 135.89 86.36) (xy 139.7 86.36))
     (stroke (width 0) (type default))
     (uuid 02557060-6850-4dd1-a5dc-734cf33002d0)
@@ -148,7 +149,6 @@
     (stroke (width 0) (type default))
     (uuid 183c6431-7c8c-4894-8fda-e896041c734d)
   )
-
   (wire (pts (xy 135.89 156.21) (xy 199.39 156.21))
     (stroke (width 0) (type default))
     (uuid 197c7905-38f8-4335-95a2-4008ed25ac64)
@@ -193,7 +193,6 @@
     (stroke (width 0) (type default))
     (uuid 3e14d269-e010-4d9c-9586-ca483bc82401)
   )
-
   (wire (pts (xy 379.73 231.14) (xy 381 231.14))
     (stroke (width 0) (type default))
     (uuid 3e3898e0-6368-463c-af67-1c0ace3277fc)
@@ -210,7 +209,6 @@
     (stroke (width 0) (type default))
     (uuid 47694516-613f-4dd7-bed5-4eeea523b446)
   )
-
   (wire (pts (xy 189.23 74.93) (xy 135.89 74.93))
     (stroke (width 0) (type default))
     (uuid 4b66a10c-1707-4e6a-9fd9-3241f0dbe691)
@@ -219,7 +217,6 @@
     (stroke (width 0) (type default))
     (uuid 514844b5-0292-4164-9ddd-bbfb6f1ab246)
   )
-
   (wire (pts (xy 139.7 132.08) (xy 135.89 132.08))
     (stroke (width 0) (type default))
     (uuid 56315dcd-42c9-47bd-b433-5c292183cdf1)
@@ -232,7 +229,6 @@
     (stroke (width 0) (type default))
     (uuid 59260af2-7b6c-4763-99a0-125ca0c987a6)
   )
-
   (wire (pts (xy 139.7 100.33) (xy 143.51 100.33))
     (stroke (width 0) (type default))
     (uuid 62e74338-22ec-4051-8a5b-14ad90a2839d)
@@ -245,7 +241,6 @@
     (stroke (width 0) (type default))
     (uuid 6724741f-5d3d-4306-be3d-93f89d8f06ef)
   )
-
   (wire (pts (xy 379.73 237.49) (xy 381 237.49))
     (stroke (width 0) (type default))
     (uuid 6873042c-3175-422a-8e2b-bf5654fdd520)
@@ -270,7 +265,6 @@
     (stroke (width 0) (type default))
     (uuid 82394bfd-ba04-477b-82a9-79e7e05f0d64)
   )
-
   (wire (pts (xy 379.73 218.44) (xy 379.73 224.79))
     (stroke (width 0) (type default))
     (uuid 89342839-efbb-4bb0-a323-5287ccf054cf)
@@ -291,7 +285,6 @@
     (stroke (width 0) (type default))
     (uuid 8fe7a023-f63d-4b63-8729-09ff50acebd3)
   )
-
   (wire (pts (xy 143.51 120.65) (xy 139.7 120.65))
     (stroke (width 0) (type default))
     (uuid 92374ab0-ba4b-40c7-93ef-bc2528ee6997)
@@ -332,7 +325,6 @@
     (stroke (width 0) (type default))
     (uuid b96dfa7f-ff62-43d0-8095-a4e48ad7328d)
   )
-
   (wire (pts (xy 379.73 231.14) (xy 379.73 237.49))
     (stroke (width 0) (type default))
     (uuid ba0f2f46-ce88-4228-b7dc-5e741da92401)
@@ -349,7 +341,6 @@
     (stroke (width 0) (type default))
     (uuid c0d22e7f-5c0d-4dce-9ace-cb95fed7eaaf)
   )
-
   (wire (pts (xy 379.73 224.79) (xy 379.73 231.14))
     (stroke (width 0) (type default))
     (uuid c2691fd7-214e-46c4-b39a-c568e4a44502)
@@ -366,7 +357,6 @@
     (stroke (width 0) (type default))
     (uuid c8f5237e-7aa7-4e4a-993a-28dd5bc5df44)
   )
-
   (wire (pts (xy 189.23 109.22) (xy 189.23 74.93))
     (stroke (width 0) (type default))
     (uuid cc2339ec-a735-4bb0-8489-1efe67522ea3)
@@ -379,7 +369,6 @@
     (stroke (width 0) (type default))
     (uuid d1d2e906-9dfb-4e89-86d9-05d8df3c9418)
   )
-
   (wire (pts (xy 381 218.44) (xy 379.73 218.44))
     (stroke (width 0) (type default))
     (uuid d6efd4db-7008-4699-9c59-b6449061a0e9)
@@ -392,7 +381,6 @@
     (stroke (width 0) (type default))
     (uuid db4514fd-32a0-45f7-8c2a-2bb0a2393699)
   )
-
   (wire (pts (xy 139.7 120.65) (xy 139.7 132.08))
     (stroke (width 0) (type default))
     (uuid dde22e68-83d3-42f6-ac92-fad934f0c432)
@@ -425,7 +413,6 @@
     (stroke (width 0) (type default))
     (uuid ef5f656f-12bb-4ac6-9ce3-1e0377bfe992)
   )
-
   (wire (pts (xy 199.39 109.22) (xy 189.23 109.22))
     (stroke (width 0) (type default))
     (uuid f19ce850-1e0b-49d4-8d54-400836887a19)
@@ -2477,7 +2464,7 @@
     )
   )
 
-  (symbol (lib_id "antmicropower:GND") (at 379.73 240.03 0) (unit 1)
+  (symbol (lib_id "cm4-baseboard:GND") (at 379.73 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2253ec79-b4a7-4cd2-9de1-e62f3f24db25)
     (property "Reference" "#PWR0101" (at 388.62 242.57 0)
@@ -2508,7 +2495,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 224.79 0) (unit 1)
+  (symbol (lib_id "cm4-baseboard:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62c1a2cc-bb77-43ee-85cd-2f6a8cf26986)
     (property "Reference" "H102" (at 389.89 223.52 0)
@@ -2517,7 +2504,7 @@
     (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 224.7899 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 232.41 0)
+    (property "Footprint" "cm4-baseboard-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 232.41 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf" (at 403.86 234.95 0)
@@ -2545,7 +2532,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 218.44 0) (unit 1)
+  (symbol (lib_id "cm4-baseboard:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fdccf63-bb96-41f6-af18-7810062aaa08)
     (property "Reference" "H101" (at 389.89 217.17 0)
@@ -2554,7 +2541,7 @@
     (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 218.4399 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 226.06 0)
+    (property "Footprint" "cm4-baseboard-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 226.06 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf" (at 403.86 228.6 0)
@@ -2582,7 +2569,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 237.49 0) (unit 1)
+  (symbol (lib_id "cm4-baseboard:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c28b275a-9b3c-4508-b0fa-e8b33fcaa119)
     (property "Reference" "H104" (at 389.89 236.22 0)
@@ -2591,7 +2578,7 @@
     (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 237.4899 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 245.11 0)
+    (property "Footprint" "cm4-baseboard-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 245.11 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf" (at 403.86 247.65 0)
@@ -2619,7 +2606,7 @@
     )
   )
 
-  (symbol (lib_id "antmicroMechanicalParts:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 231.14 0) (unit 1)
+  (symbol (lib_id "cm4-baseboard:Spacer_Drill3.7mm_H6mm_9774060151R") (at 381 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e909052e-369a-4466-978f-738e1bebb77e)
     (property "Reference" "H103" (at 389.89 229.87 0)
@@ -2628,7 +2615,7 @@
     (property "Value" "Spacer_Drill3.7mm_H6mm_9774060151R" (at 389.89 231.1399 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "antmicro-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 238.76 0)
+    (property "Footprint" "cm4-baseboard-footprints:Spacer_Drill3.7mm_H6mm_9774060151R" (at 403.86 238.76 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.we-online.com/components/products/datasheet/9774060151R.pdf" (at 403.86 241.3 0)
