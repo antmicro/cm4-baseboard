@@ -18,7 +18,7 @@ The design files were prepared in KiCad 7.x.
 - Compatible with `Raspberry Pi CM4` (and `RPi CM4` compatible modules)
 - Extended features for [Antmicro PolarFire SoM](https://github.com/antmicro/polarfire-som)
 - Compact size (`107mm x 68mm`)
-- Multiple power supply options (`USB-PD`, `PoE`, `DC-jack 9-15V`) with automatic switching between sources
+- Multiple power supply options (`USB-PD`, `PoE`, `9-15V DC Input Connector`) with automatic switching between sources
 - `m.2 2280 PCIe 2.0 x4` slot for fast storage (`RPi CM4` supports `PCIe 2.0 x1` only)
 - `USB-C 2.0 DRP` with `5V@1.5A` output
 - `USB-C UFP` with `Power Delivery 15V@3A` input, used to expose 4 `UARTs`over the USB port
