@@ -2,7 +2,7 @@
 
 Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
 
-![CM4 baseboard with LVDS-adapter- top view](img/assembly_top_iso_black.png)
+![CM4 Baseboard render](img/cm4-baseboard-render.png)
 
 ## Overview
 
@@ -12,20 +12,20 @@ The design files were prepared in KiCad 7.x.
 ## Key features
 
 * Compatible with `Raspberry Pi CM4` (and `RPi CM4` compatible modules)
-* Extended features for [Antmicro PolarFire SoM](https://github.com/antmicro/polarfire-som)
-* Compact size (`107mm x 68mm`)
-* Multiple power supply options (`USB-PD`, `PoE`, `9-15V DC Input Connector`) with automatic switching between sources
-* `M.2 2280 PCIe 2.0 x4` slot for fast storage (`RPi CM4` supports `PCIe 2.0 x1` only)
-* `USB-C 2.0 DRP` with `5V@1.5A` output
-* `USB-C UFP` with `Power Delivery 15V@3A` input, used to expose 4 `UARTs`over the USB port
-* `Gigabit Ethernet` with `PoE` input
-* `DSI Adapter Connector` exposing with touchscreen control over `I2C` and power `5V@2A` to connect adapters for different displays
-* `Antmicro Dual CSI` (4-line + 2-line) to connect external cameras
-* `HDMI 2.0b` output
-* `microSD` slot
-* 2x `QWIIC` expansion connectors to connect external sensors or peripherals
-* `NFC`(`PN7160`) with an external antenna connector
-* All `GPIOs` are exposed through a dedicated connector
+* Extended features to support [Antmicro PolarFire SoM](https://github.com/antmicro/polarfire-som)
+* Compact size (107mm x 68mm)
+* Multiple power supply options (USB-PD, PoE, 9-15V DC Input Connector) with automatic switching between sources
+* M.2 (key-M) 2280 PCIe 2.0 x4 slot for NVMe storage
+* USB-C 2.0 DRP (5V with 1.5A) output
+* USB-C UFP with Power Delivery (15V with 3A) input
+* Gigabit Ethernet with PoE
+* DSI Adapter Connector for customized display adapters
+* Antmicro's 50-pin FFC camera connector for external camera modules and video accessories
+* HDMI 2.0 output
+* microSD slot
+* 2x QWIIC expansion connectors for external sensors and peripherals
+* NFC transceiver (PN7160) with an external antenna connector
+* Expansion connector
 
 ## Project structure
 
@@ -33,9 +33,9 @@ The main project directory contains KiCad PCB project files, a LICENSE, and a RE
 The remaining files are stored in the following directories:
 
 * `lib` - contains the component libraries
-* `img` - contains board visualization for this README
-* `doc` - contains project realated pdf's (eg. schematics)
-* `assets` - contains visual assets for showcasing the board on Antmicro [Open Hardware Portal](https://openhardware.antmicro.com)
+* `img` - contains graphics for this README
+* `doc` - contains pdf schematics
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com)
 
 ## License
 
