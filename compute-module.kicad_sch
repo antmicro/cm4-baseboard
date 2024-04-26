@@ -8911,7 +8911,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 55fb156e-db4e-4120-855a-3ab64dba32f1)
   )
-  (label "DSICtrl.~{IRQ1}" (at 313.69 48.26 0) (fields_autoplaced)
+  (label "DSICtrl.IRQ1" (at 313.69 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5800808b-dd7e-4ee3-b2a2-61f3b70d80a1)
   )
