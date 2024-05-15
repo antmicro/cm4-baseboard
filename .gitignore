@@ -1,3 +1,4 @@
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -26,3 +27,9 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
+*.csv
+
+*.step
+*.stp
+*.wrl
+*.vrml
