@@ -14523,7 +14523,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 187.96 125.73 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid aee70c61-c3d2-430c-8a8a-ec19fcbb3901)
     (property "Reference" "R908" (at 189.23 127.635 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -16805,7 +16805,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 198.12 125.73 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid fc388447-fa9f-4935-9638-75e13313256e)
     (property "Reference" "R911" (at 199.39 127.635 90)
       (effects (font (size 1.27 1.27)) (justify left))

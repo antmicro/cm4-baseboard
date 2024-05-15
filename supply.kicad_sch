@@ -6537,7 +6537,7 @@
   )
 
   (symbol (lib_id "antmicroResistors0603:R_0R_22.4A_0603") (at 147.32 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 47b133e0-ca6f-4ad7-823c-96438df0c59b)
     (property "Reference" "R308" (at 149.86 102.87 0)
       (effects (font (size 1.27 1.27)))
