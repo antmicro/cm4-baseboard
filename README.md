@@ -17,7 +17,7 @@ The design files were prepared in KiCad 7.x.
 * Multiple power supply options (USB-PD, PoE, 9-15V DC Input Connector) with automatic switching between sources
 * M.2 (key-M) 2280 PCIe 2.0 x4 slot for NVMe storage
 * USB-C 2.0 DRP (5V with 1.5A) output
-* USB-C UFP with Power Delivery (15V with 3A) input
+* USB-C UFP with Power Delivery (15V with 3A) input with USB-4xUART/USB-I2C bridge
 * Gigabit Ethernet with PoE
 * DSI Adapter Connector for customized display adapters
 * Antmicro's 50-pin FFC camera connector for external camera modules and video accessories
