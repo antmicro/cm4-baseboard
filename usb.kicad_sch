@@ -13565,9 +13565,9 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 80.01 194.945 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 8c740935-9058-45bd-a835-7500c13f496b)
-    (property "Reference" "TP921" (at 81.915 191.7699 90)
+    (property "Reference" "TP921" (at 77.47 189.865 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TP_0.75mm_SMD" (at 82.55 194.945 0)
@@ -16561,9 +16561,9 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 76.2 56.515 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid f799a19c-6b28-40a9-a3d1-04bc2b2dc381)
-    (property "Reference" "TP920" (at 78.105 53.3399 90)
+    (property "Reference" "TP920" (at 73.66 51.435 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TP_0.75mm_SMD" (at 78.74 56.515 0)

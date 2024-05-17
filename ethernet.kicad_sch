@@ -6076,9 +6076,9 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 367.03 180.975 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2bc826c1-e0a5-455b-82ab-78c7b0387ca6)
-    (property "Reference" "TP403" (at 368.935 177.7999 90)
+    (property "Reference" "TP403" (at 365.125 175.895 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TP_0.75mm_SMD" (at 369.57 180.975 0)
@@ -6900,9 +6900,9 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_0.75mm_SMD") (at 300.355 180.975 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 79688cc6-efaf-44c6-84da-cd4ff95ee146)
-    (property "Reference" "TP401" (at 302.26 177.7999 90)
+    (property "Reference" "TP401" (at 297.815 175.26 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TP_0.75mm_SMD" (at 302.895 180.975 0)
