@@ -9906,13 +9906,13 @@
   )
 
   (symbol (lib_id "antmicroModules:Compute-Module-4_H1.5mm") (at 340.36 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 00000000-0000-0000-0000-00005feb7f76)
-    (property "Reference" "M201" (at 352.298 171.831 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    (property "Reference" "M201" (at 351.79 169.545 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
-    (property "Value" "Compute-Module-4_H1.5mm" (at 352.298 174.371 0)
-      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+    (property "Value" "Compute-Module-4_H1.5mm" (at 351.79 172.085 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Footprint" "antmicro-footprints:Compute-Module-4_H1.5mm" (at 358.14 176.53 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
@@ -9931,6 +9931,9 @@
     )
     (property "License" "Apache-2.0" (at 358.14 186.69 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "DNP" "DNP" (at 351.79 174.625 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (instances
       (project "cm4-baseboard"
