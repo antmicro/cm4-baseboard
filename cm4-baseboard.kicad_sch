@@ -6,9 +6,9 @@
 
   (title_block
     (title "CM4 Baseboard")
-    (date "2024-06-19")
-    (rev "1.0.3")
-    (company "Antmicro")
+    (date "2024-08-02")
+    (rev "1.0.4")
+    (company "Antmicro Ltd")
     (comment 1 "www.antmicro.com")
   )
 
@@ -34,9 +34,6 @@
       )
       (property "Author" "Antmicro" (at 22.86 -17.78 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-      )
-      (property "Public" "False" (at 22.86 -12.7 0)
-        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
       )
       (property "License" "Apache-2.0" (at 22.86 -20.32 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
