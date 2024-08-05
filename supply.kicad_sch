@@ -720,8 +720,18 @@
       (property "ki_description" "OR Controller N+1 ORing Controller P-Channel 1:1 SOT-363" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (symbol "DZDH0401DW_1_0"
+        (pin no_connect line (at 2.54 -3.81 0) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 13.97 -3.81 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+      )
       (symbol "DZDH0401DW_1_1"
-        (rectangle (start 2.54 1.905) (end 13.97 -4.445)
+        (rectangle (start 2.54 2.54) (end 13.97 -5.08)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
@@ -6035,6 +6045,8 @@
     (pin "6" (uuid 9f860022-7162-4c73-867a-bc3addf12b85))
     (pin "2" (uuid 150a5aff-a534-41a1-bd02-0ca9741f7370))
     (pin "3" (uuid fb3cbec4-38d4-4831-9323-96be7b68d811))
+    (pin "1" (uuid 668a16c3-05c9-49df-8953-e8d65298b9c0))
+    (pin "5" (uuid 128aff99-e7ad-4e8f-be79-30ef3165fffe))
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/00000000-0000-0000-0000-00005fea17e9"
@@ -6632,6 +6644,8 @@
     (pin "6" (uuid f4478fb3-4914-4cd7-88dc-6b4715ada586))
     (pin "2" (uuid 59ffdb73-f474-48b7-8cf1-477d73227e1e))
     (pin "3" (uuid c7398417-7761-41f5-b361-0bc33478ceaa))
+    (pin "1" (uuid 146d9642-23cf-48ea-b8dd-b6e2cc26cfd7))
+    (pin "5" (uuid 4a074eca-4ba7-4c45-b006-b401a509efee))
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/00000000-0000-0000-0000-00005fea17e9"
@@ -8269,6 +8283,8 @@
     (pin "6" (uuid cffc5f39-aa3e-4cde-bb54-96aec03c2f66))
     (pin "2" (uuid ba9134b3-faec-4fb5-a9d2-7850fe70d191))
     (pin "3" (uuid 41002e42-657e-43f4-8114-ce7b69bf8d06))
+    (pin "1" (uuid e6e8bce3-c2e9-4aca-8419-127ea81fa967))
+    (pin "5" (uuid 33094a22-ac46-4740-89c5-9c47b54052d4))
     (instances
       (project "cm4-baseboard"
         (path "/60b842dc-0853-4a25-99ac-5784ddf94d0d/00000000-0000-0000-0000-00005fea17e9"
