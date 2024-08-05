@@ -5645,7 +5645,7 @@
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3") (at 78.74 172.72 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 178ad1cc-96a6-42af-a1f4-f242887ec61e)
     (property "Reference" "Q305" (at 76.2 160.02 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6770,7 +6770,7 @@
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3") (at 78.74 217.17 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48921819-5742-4570-a8a4-a474d2fb40ab)
     (property "Reference" "Q306" (at 76.2 204.47 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -7806,7 +7806,7 @@
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3") (at 78.74 128.27 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8502178c-e001-4c24-9e0b-f384efea10e4)
     (property "Reference" "Q304" (at 76.2 115.57 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -8083,7 +8083,7 @@
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3") (at 147.32 128.27 270) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ac20e23-782a-41e0-b723-b1a2290be259)
     (property "Reference" "Q307" (at 149.86 115.57 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))

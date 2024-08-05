@@ -10304,7 +10304,7 @@
   )
 
   (symbol (lib_id "antmicroTransistorsFETsMOSFETsSingle:SQS401EN-T1_BE3") (at 120.65 64.77 270) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24bf2051-d333-4470-a2f0-bdbb26e49fe0)
     (property "Reference" "Q902" (at 123.19 50.8 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
