@@ -34,7 +34,7 @@ The remaining files are stored in the following directories:
 
 * `img` - contains graphics for this README
 * `doc` - contains pdf schematics
-* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com)
+* `assets` - contains visual assets for showcasing this design on [Open Hardware Portal](https://openhardware.antmicro.com/boards/cm4-baseboard/?view=top-ortho&tab=features)
 
 ## License
 
